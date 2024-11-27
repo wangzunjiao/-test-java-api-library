@@ -7,7 +7,7 @@
     <version>31.3.0</version>
     <name>Adyen Java API Library</name>
     <description>Adyen API Client Library for Java</description>
-    <url>https://github.com/adyen/adyen-java-api-library</url>
+    <url>https://github.com/wangzunjiao/test-java-api-library</url>
     <licenses>
         <license>
             <name>MIT</name>
@@ -28,9 +28,9 @@
         <swagger-core-version>1.6.14</swagger-core-version>
     </properties>
     <scm>
-        <connection>scm:git:git@github.com:Adyen/adyen-java-api-library.git</connection>
-        <developerConnection>scm:git:git@github.com:Adyen/adyen-java-api-library.git</developerConnection>
-        <url>git@github.com:Adyen/adyen-java-api-library.git</url>
+        <connection>scm:git:git@github.com:wangzunjiao/test-java-api-library.git</connection>
+        <developerConnection>scm:git:git@github.com:wangzunjiao/test-java-api-library.git</developerConnection>
+        <url>git@github.com:wangzunjiao/test-java-api-library.git</url>
     </scm>
     <distributionManagement>
         <repository>
