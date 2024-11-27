@@ -27,7 +27,6 @@ import com.adyen.httpclient.ClientInterface;
 import com.adyen.httpclient.HTTPClientException;
 import com.adyen.model.RequestOptions;
 import com.adyen.model.payment.*;
-import com.adyen.service.PaymentApi;
 import com.adyen.service.exception.ApiException;
 import com.adyen.util.DateUtil;
 import okio.ByteString;
