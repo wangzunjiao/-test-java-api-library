@@ -12,6 +12,7 @@ output:=target/out
 # Generate models (for each service)
 models: $(modelGen)
 
+consult: spec=ConsultService-v1
 balancecontrol: spec=BalanceControlService-v1
 balancecontrol: smallServiceName=BalanceControlApi
 binlookup: spec=BinLookupService-v54
@@ -139,7 +140,7 @@ $(singleFileServices): target/spec $(openapi-generator-jar)
 
 # Checkout spec (and patch version)
 target/spec:
-	git clone https://github.com/Adyen/adyen-openapi.git target/spec
+	git clone https://github.com/wangzunjiao/adyen-openapi.git target/spec
 	perl -i -pe's/"openapi" : "3.[0-9].[0-9]"/"openapi" : "3.0.0"/' target/spec/json/*.json
 
 
@@ -153,7 +154,7 @@ $(openapi-generator-jar):
 	wget --quiet -o /dev/null $(openapi-generator-url) -O $(openapi-generator-jar)
 
 
-# Discard generated artifacts and changed models
+# Discard generated artifacts and ccheckout: spec=CheckoutService-v71hanged models
 clean:
 	rm -rf $(output)
 	git checkout $(models)
