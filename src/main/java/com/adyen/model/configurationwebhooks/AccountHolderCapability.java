@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -47,6 +49,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountHolderCapability.JSON_PROPERTY_TRANSFER_INSTRUMENTS,
   AccountHolderCapability.JSON_PROPERTY_VERIFICATION_STATUS
 })
+//pojo
 
 public class AccountHolderCapability {
   public static final String JSON_PROPERTY_ALLOWED = "allowed";

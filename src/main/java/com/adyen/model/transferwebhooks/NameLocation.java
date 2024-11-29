@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   NameLocation.JSON_PROPERTY_RAW_DATA,
   NameLocation.JSON_PROPERTY_STATE
 })
+//pojo
 
 public class NameLocation {
   public static final String JSON_PROPERTY_CITY = "city";

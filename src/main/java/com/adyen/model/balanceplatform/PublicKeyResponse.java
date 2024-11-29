@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PublicKeyResponse.JSON_PROPERTY_PUBLIC_KEY,
   PublicKeyResponse.JSON_PROPERTY_PUBLIC_KEY_EXPIRY_DATE
 })
+//pojo
 
 public class PublicKeyResponse {
   public static final String JSON_PROPERTY_PUBLIC_KEY = "publicKey";

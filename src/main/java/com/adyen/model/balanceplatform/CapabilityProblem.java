@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapabilityProblem.JSON_PROPERTY_ENTITY,
   CapabilityProblem.JSON_PROPERTY_VERIFICATION_ERRORS
 })
+//pojo
 
 public class CapabilityProblem {
   public static final String JSON_PROPERTY_ENTITY = "entity";

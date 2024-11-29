@@ -12,6 +12,8 @@
 
 package com.adyen.model.dataprotection;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SubjectErasureByPspReferenceRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   SubjectErasureByPspReferenceRequest.JSON_PROPERTY_PSP_REFERENCE
 })
+//pojo
 
 public class SubjectErasureByPspReferenceRequest {
   public static final String JSON_PROPERTY_FORCE_ERASURE = "forceErasure";

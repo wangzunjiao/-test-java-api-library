@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ReleaseUpdateDetails.JSON_PROPERTY_TYPE,
   ReleaseUpdateDetails.JSON_PROPERTY_UPDATE_AT_FIRST_MAINTENANCE_CALL
 })
+//pojo
 
 public class ReleaseUpdateDetails {
   /**

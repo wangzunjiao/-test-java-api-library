@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Settings.JSON_PROPERTY_ROAMING,
   Settings.JSON_PROPERTY_TIMEOUT
 })
+//pojo
 
 public class Settings {
   public static final String JSON_PROPERTY_BAND = "band";

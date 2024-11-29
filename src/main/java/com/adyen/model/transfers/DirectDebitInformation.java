@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DirectDebitInformation.JSON_PROPERTY_MANDATE_ID,
   DirectDebitInformation.JSON_PROPERTY_SEQUENCE_TYPE
 })
+//pojo
 
 public class DirectDebitInformation {
   public static final String JSON_PROPERTY_DATE_OF_SIGNATURE = "dateOfSignature";

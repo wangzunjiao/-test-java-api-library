@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantDetails.JSON_PROPERTY_ENROLLED_IN3_D_SECURE,
   MerchantDetails.JSON_PROPERTY_MCC
 })
+//pojo
 
 public class MerchantDetails {
   public static final String JSON_PROPERTY_COUNTRY_CODE = "countryCode";

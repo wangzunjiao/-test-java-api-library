@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   AdditionalDataOpi.JSON_PROPERTY_OPI_INCLUDE_TRANS_TOKEN
 })
+//pojo
 
 public class AdditionalDataOpi {
   public static final String JSON_PROPERTY_OPI_INCLUDE_TRANS_TOKEN = "opi.includeTransToken";

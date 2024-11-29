@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantCreatedNotificationRequest.JSON_PROPERTY_ENVIRONMENT,
   MerchantCreatedNotificationRequest.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class MerchantCreatedNotificationRequest {
   public static final String JSON_PROPERTY_CREATED_AT = "createdAt";

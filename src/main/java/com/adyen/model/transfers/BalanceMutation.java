@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BalanceMutation.JSON_PROPERTY_RECEIVED,
   BalanceMutation.JSON_PROPERTY_RESERVED
 })
+//pojo
 
 public class BalanceMutation {
   public static final String JSON_PROPERTY_BALANCE = "balance";

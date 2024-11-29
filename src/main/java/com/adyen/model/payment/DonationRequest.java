@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DonationRequest.JSON_PROPERTY_PLATFORM_CHARGEBACK_LOGIC,
   DonationRequest.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class DonationRequest {
   public static final String JSON_PROPERTY_DONATION_ACCOUNT = "donationAccount";

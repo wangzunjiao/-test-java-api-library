@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Commission.JSON_PROPERTY_FIXED_AMOUNT,
   Commission.JSON_PROPERTY_VARIABLE_PERCENTAGE
 })
+//pojo
 
 public class Commission {
   public static final String JSON_PROPERTY_FIXED_AMOUNT = "fixedAmount";

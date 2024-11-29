@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreatePermitRequest.JSON_PROPERTY_RECURRING_DETAIL_REFERENCE,
   CreatePermitRequest.JSON_PROPERTY_SHOPPER_REFERENCE
 })
+//pojo
 
 public class CreatePermitRequest {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateAllowedOriginRequest.JSON_PROPERTY_DOMAIN,
   CreateAllowedOriginRequest.JSON_PROPERTY_ID
 })
+//pojo
 
 public class CreateAllowedOriginRequest {
   public static final String JSON_PROPERTY_LINKS = "_links";

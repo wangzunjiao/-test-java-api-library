@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionRuleReference.JSON_PROPERTY_REFERENCE,
   TransactionRuleReference.JSON_PROPERTY_SCORE
 })
+//pojo
 
 public class TransactionRuleReference {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

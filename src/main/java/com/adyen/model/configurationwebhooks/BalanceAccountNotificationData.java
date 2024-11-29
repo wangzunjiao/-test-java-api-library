@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BalanceAccountNotificationData.JSON_PROPERTY_BALANCE_ACCOUNT,
   BalanceAccountNotificationData.JSON_PROPERTY_BALANCE_PLATFORM
 })
+//pojo
 
 public class BalanceAccountNotificationData {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT = "balanceAccount";

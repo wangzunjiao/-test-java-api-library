@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoreSplitConfiguration.JSON_PROPERTY_BALANCE_ACCOUNT_ID,
   StoreSplitConfiguration.JSON_PROPERTY_SPLIT_CONFIGURATION_ID
 })
+//pojo
 
 public class StoreSplitConfiguration {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

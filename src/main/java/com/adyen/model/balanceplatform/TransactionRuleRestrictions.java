@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -70,6 +72,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionRuleRestrictions.JSON_PROPERTY_TIME_OF_DAY,
   TransactionRuleRestrictions.JSON_PROPERTY_TOTAL_AMOUNT
 })
+//pojo
 
 public class TransactionRuleRestrictions {
   public static final String JSON_PROPERTY_ACTIVE_NETWORK_TOKENS = "activeNetworkTokens";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapabilitySettings.JSON_PROPERTY_INTERVAL,
   CapabilitySettings.JSON_PROPERTY_MAX_AMOUNT
 })
+//pojo
 
 public class CapabilitySettings {
   public static final String JSON_PROPERTY_AMOUNT_PER_INDUSTRY = "amountPerIndustry";

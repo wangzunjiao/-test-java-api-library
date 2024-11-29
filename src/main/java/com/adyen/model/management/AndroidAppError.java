@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AndroidAppError.JSON_PROPERTY_ERROR_CODE,
   AndroidAppError.JSON_PROPERTY_TERMINAL_MODELS
 })
+//pojo
 
 public class AndroidAppError {
   public static final String JSON_PROPERTY_ERROR_CODE = "errorCode";

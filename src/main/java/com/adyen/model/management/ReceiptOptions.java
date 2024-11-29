@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ReceiptOptions.JSON_PROPERTY_PROMPT_BEFORE_PRINTING,
   ReceiptOptions.JSON_PROPERTY_QR_CODE_DATA
 })
+//pojo
 
 public class ReceiptOptions {
   public static final String JSON_PROPERTY_LOGO = "logo";

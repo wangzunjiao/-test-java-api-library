@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CZLocalAccountIdentification.JSON_PROPERTY_BANK_CODE,
   CZLocalAccountIdentification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CZLocalAccountIdentification {
   public static final String JSON_PROPERTY_ACCOUNT_NUMBER = "accountNumber";

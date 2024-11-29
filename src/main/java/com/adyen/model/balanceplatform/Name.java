@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Name.JSON_PROPERTY_FIRST_NAME,
   Name.JSON_PROPERTY_LAST_NAME
 })
+//pojo
 
 public class Name {
   public static final String JSON_PROPERTY_FIRST_NAME = "firstName";

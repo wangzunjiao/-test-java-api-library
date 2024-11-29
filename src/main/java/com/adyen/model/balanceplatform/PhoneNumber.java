@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PhoneNumber.JSON_PROPERTY_PHONE_NUMBER,
   PhoneNumber.JSON_PROPERTY_PHONE_TYPE
 })
+//pojo
 
 public class PhoneNumber {
   public static final String JSON_PROPERTY_PHONE_COUNTRY_CODE = "phoneCountryCode";

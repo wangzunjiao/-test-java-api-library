@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataSubMerchant.JSON_PROPERTY_SUB_MERCHANT_SUB_SELLER_SUB_SELLER_NR_STREET,
   AdditionalDataSubMerchant.JSON_PROPERTY_SUB_MERCHANT_SUB_SELLER_SUB_SELLER_NR_TAX_ID
 })
+//pojo
 
 public class AdditionalDataSubMerchant {
   public static final String JSON_PROPERTY_SUB_MERCHANT_NUMBER_OF_SUB_SELLERS = "subMerchant.numberOfSubSellers";

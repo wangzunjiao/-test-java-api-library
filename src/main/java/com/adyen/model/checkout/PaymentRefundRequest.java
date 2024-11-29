@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentRefundRequest.JSON_PROPERTY_SPLITS,
   PaymentRefundRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class PaymentRefundRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

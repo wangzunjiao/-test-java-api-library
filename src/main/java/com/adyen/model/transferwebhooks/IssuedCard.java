@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   IssuedCard.JSON_PROPERTY_TYPE,
   IssuedCard.JSON_PROPERTY_VALIDATION_FACTS
 })
+//pojo
 
 public class IssuedCard {
   public static final String JSON_PROPERTY_AUTHORISATION_TYPE = "authorisationType";

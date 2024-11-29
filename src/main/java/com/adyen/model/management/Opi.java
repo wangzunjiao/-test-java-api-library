@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Opi.JSON_PROPERTY_PAY_AT_TABLE_STORE_NUMBER,
   Opi.JSON_PROPERTY_PAY_AT_TABLE_U_R_L
 })
+//pojo
 
 public class Opi {
   public static final String JSON_PROPERTY_ENABLE_PAY_AT_TABLE = "enablePayAtTable";

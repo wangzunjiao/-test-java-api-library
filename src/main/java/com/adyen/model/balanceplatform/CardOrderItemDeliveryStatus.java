@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardOrderItemDeliveryStatus.JSON_PROPERTY_STATUS,
   CardOrderItemDeliveryStatus.JSON_PROPERTY_TRACKING_NUMBER
 })
+//pojo
 
 public class CardOrderItemDeliveryStatus {
   public static final String JSON_PROPERTY_ERROR_MESSAGE = "errorMessage";

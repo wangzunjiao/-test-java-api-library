@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapitalGrantAccount.JSON_PROPERTY_ID,
   CapitalGrantAccount.JSON_PROPERTY_LIMITS
 })
+//pojo
 
 public class CapitalGrantAccount {
   public static final String JSON_PROPERTY_BALANCES = "balances";

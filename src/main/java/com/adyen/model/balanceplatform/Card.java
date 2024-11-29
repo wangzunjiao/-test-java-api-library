@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Card.JSON_PROPERTY_NUMBER,
   Card.JSON_PROPERTY_THREE_D_SECURE
 })
+//pojo
 
 public class Card {
   public static final String JSON_PROPERTY_AUTHENTICATION = "authentication";

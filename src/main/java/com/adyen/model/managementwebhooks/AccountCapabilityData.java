@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountCapabilityData.JSON_PROPERTY_VERIFICATION_DEADLINE,
   AccountCapabilityData.JSON_PROPERTY_VERIFICATION_STATUS
 })
+//pojo
 
 public class AccountCapabilityData {
   public static final String JSON_PROPERTY_ALLOWED = "allowed";

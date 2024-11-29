@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionSearchResponse.JSON_PROPERTY_LINKS,
   TransactionSearchResponse.JSON_PROPERTY_DATA
 })
+//pojo
 
 public class TransactionSearchResponse {
   public static final String JSON_PROPERTY_LINKS = "_links";

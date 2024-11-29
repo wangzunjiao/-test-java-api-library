@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodToStore.JSON_PROPERTY_NUMBER,
   PaymentMethodToStore.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PaymentMethodToStore {
   public static final String JSON_PROPERTY_BRAND = "brand";

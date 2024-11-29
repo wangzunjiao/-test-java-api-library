@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferNotificationValidationFact.JSON_PROPERTY_RESULT,
   TransferNotificationValidationFact.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class TransferNotificationValidationFact {
   public static final String JSON_PROPERTY_RESULT = "result";

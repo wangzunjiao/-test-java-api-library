@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalOrder.JSON_PROPERTY_STATUS,
   TerminalOrder.JSON_PROPERTY_TRACKING_URL
 })
+//pojo
 
 public class TerminalOrder {
   public static final String JSON_PROPERTY_BILLING_ENTITY = "billingEntity";

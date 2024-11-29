@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionRuleInterval.JSON_PROPERTY_TIME_ZONE,
   TransactionRuleInterval.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class TransactionRuleInterval {
   public static final String JSON_PROPERTY_DAY_OF_MONTH = "dayOfMonth";

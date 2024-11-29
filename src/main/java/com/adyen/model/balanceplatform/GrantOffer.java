@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GrantOffer.JSON_PROPERTY_REPAYMENT,
   GrantOffer.JSON_PROPERTY_STARTS_AT
 })
+//pojo
 
 public class GrantOffer {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER_ID = "accountHolderId";

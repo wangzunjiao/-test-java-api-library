@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalData3DSecure.JSON_PROPERTY_SCA_EXEMPTION,
   AdditionalData3DSecure.JSON_PROPERTY_THREE_D_S_VERSION
 })
+//pojo
 
 public class AdditionalData3DSecure {
   public static final String JSON_PROPERTY_ALLOW3_D_S2 = "allow3DS2";

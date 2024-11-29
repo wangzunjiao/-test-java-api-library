@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoreDetailResponse.JSON_PROPERTY_RECURRING_DETAIL_REFERENCE,
   StoreDetailResponse.JSON_PROPERTY_RESULT_CODE
 })
+//pojo
 
 public class StoreDetailResponse {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

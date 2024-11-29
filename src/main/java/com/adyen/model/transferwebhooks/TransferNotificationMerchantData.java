@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferNotificationMerchantData.JSON_PROPERTY_NAME,
   TransferNotificationMerchantData.JSON_PROPERTY_POSTAL_CODE
 })
+//pojo
 
 public class TransferNotificationMerchantData {
   public static final String JSON_PROPERTY_ACQUIRER_ID = "acquirerId";

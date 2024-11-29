@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AuthenticationResultRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   AuthenticationResultRequest.JSON_PROPERTY_PSP_REFERENCE
 })
+//pojo
 
 public class AuthenticationResultRequest {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

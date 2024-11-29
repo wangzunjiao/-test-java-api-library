@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   Links.JSON_PROPERTY_SELF
 })
+//pojo
 
 public class Links {
   public static final String JSON_PROPERTY_SELF = "self";

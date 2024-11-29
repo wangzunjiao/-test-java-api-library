@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDSRequestorPriorAuthenticationInfo.JSON_PROPERTY_THREE_D_S_REQ_PRIOR_AUTH_TIMESTAMP,
   ThreeDSRequestorPriorAuthenticationInfo.JSON_PROPERTY_THREE_D_S_REQ_PRIOR_REF
 })
+//pojo
 
 public class ThreeDSRequestorPriorAuthenticationInfo {
   public static final String JSON_PROPERTY_THREE_D_S_REQ_PRIOR_AUTH_DATA = "threeDSReqPriorAuthData";

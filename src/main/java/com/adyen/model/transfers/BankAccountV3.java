@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BankAccountV3.JSON_PROPERTY_ACCOUNT_HOLDER,
   BankAccountV3.JSON_PROPERTY_ACCOUNT_IDENTIFICATION
 })
+//pojo
 
 public class BankAccountV3 {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER = "accountHolder";

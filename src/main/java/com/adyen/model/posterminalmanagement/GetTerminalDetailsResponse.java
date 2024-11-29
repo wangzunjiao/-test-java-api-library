@@ -12,6 +12,8 @@
 
 package com.adyen.model.posterminalmanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -59,6 +61,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GetTerminalDetailsResponse.JSON_PROPERTY_WIFI_IP,
   GetTerminalDetailsResponse.JSON_PROPERTY_WIFI_MAC
 })
+//pojo
 
 public class GetTerminalDetailsResponse {
   public static final String JSON_PROPERTY_BLUETOOTH_IP = "bluetoothIp";

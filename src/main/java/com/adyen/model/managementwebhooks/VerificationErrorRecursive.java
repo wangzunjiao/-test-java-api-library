@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   VerificationErrorRecursive.JSON_PROPERTY_TYPE,
   VerificationErrorRecursive.JSON_PROPERTY_REMEDIATING_ACTIONS
 })
+//pojo
 @JsonTypeName("VerificationError-recursive")
 
 public class VerificationErrorRecursive {

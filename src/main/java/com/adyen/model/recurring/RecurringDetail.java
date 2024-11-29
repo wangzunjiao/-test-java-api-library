@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -59,6 +61,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RecurringDetail.JSON_PROPERTY_TOKEN_DETAILS,
   RecurringDetail.JSON_PROPERTY_VARIANT
 })
+//pojo
 
 public class RecurringDetail {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

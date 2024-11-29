@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -96,6 +98,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentRequest3ds2.JSON_PROPERTY_TOTALS_GROUP,
   PaymentRequest3ds2.JSON_PROPERTY_TRUSTED_SHOPPER
 })
+//pojo
 
 public class PaymentRequest3ds2 {
   public static final String JSON_PROPERTY_ACCOUNT_INFO = "accountInfo";

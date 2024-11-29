@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardDetailsRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   CardDetailsRequest.JSON_PROPERTY_SUPPORTED_BRANDS
 })
+//pojo
 
 public class CardDetailsRequest {
   public static final String JSON_PROPERTY_CARD_NUMBER = "cardNumber";

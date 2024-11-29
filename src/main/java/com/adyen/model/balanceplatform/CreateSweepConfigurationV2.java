@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -52,6 +54,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateSweepConfigurationV2.JSON_PROPERTY_TRIGGER_AMOUNT,
   CreateSweepConfigurationV2.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CreateSweepConfigurationV2 {
   /**

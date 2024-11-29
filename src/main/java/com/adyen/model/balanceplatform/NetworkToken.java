@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   NetworkToken.JSON_PROPERTY_TOKEN_LAST_FOUR,
   NetworkToken.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class NetworkToken {
   public static final String JSON_PROPERTY_BRAND_VARIANT = "brandVariant";

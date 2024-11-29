@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardOrderNotificationRequest.JSON_PROPERTY_ENVIRONMENT,
   CardOrderNotificationRequest.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CardOrderNotificationRequest {
   public static final String JSON_PROPERTY_DATA = "data";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Individual.JSON_PROPERTY_TAX_INFORMATION,
   Individual.JSON_PROPERTY_WEB_DATA
 })
+//pojo
 
 public class Individual {
   public static final String JSON_PROPERTY_BIRTH_DATA = "birthData";

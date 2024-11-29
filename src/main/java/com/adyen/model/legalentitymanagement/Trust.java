@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Trust.JSON_PROPERTY_VAT_ABSENCE_REASON,
   Trust.JSON_PROPERTY_VAT_NUMBER
 })
+//pojo
 
 public class Trust {
   public static final String JSON_PROPERTY_COUNTRY_OF_GOVERNING_LAW = "countryOfGoverningLaw";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   FundRecipient.JSON_PROPERTY_WALLET_OWNER_TAX_ID,
   FundRecipient.JSON_PROPERTY_WALLET_PURPOSE
 })
+//pojo
 
 public class FundRecipient {
   public static final String JSON_PROPERTY_I_B_A_N = "IBAN";

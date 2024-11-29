@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   OfflineProcessing.JSON_PROPERTY_CHIP_FLOOR_LIMIT,
   OfflineProcessing.JSON_PROPERTY_OFFLINE_SWIPE_LIMITS
 })
+//pojo
 
 public class OfflineProcessing {
   public static final String JSON_PROPERTY_CHIP_FLOOR_LIMIT = "chipFloorLimit";

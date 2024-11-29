@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateMerchantApiCredentialRequest.JSON_PROPERTY_DESCRIPTION,
   CreateMerchantApiCredentialRequest.JSON_PROPERTY_ROLES
 })
+//pojo
 
 public class CreateMerchantApiCredentialRequest {
   public static final String JSON_PROPERTY_ALLOWED_ORIGINS = "allowedOrigins";

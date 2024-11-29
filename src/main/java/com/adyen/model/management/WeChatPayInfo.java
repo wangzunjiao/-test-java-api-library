@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   WeChatPayInfo.JSON_PROPERTY_CONTACT_PERSON_NAME,
   WeChatPayInfo.JSON_PROPERTY_EMAIL
 })
+//pojo
 
 public class WeChatPayInfo {
   public static final String JSON_PROPERTY_CONTACT_PERSON_NAME = "contactPersonName";

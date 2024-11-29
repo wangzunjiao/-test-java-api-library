@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataRatepay.JSON_PROPERTY_RATEPAYDATA_INVOICE_DATE,
   AdditionalDataRatepay.JSON_PROPERTY_RATEPAYDATA_INVOICE_ID
 })
+//pojo
 
 public class AdditionalDataRatepay {
   public static final String JSON_PROPERTY_RATEPAY_INSTALLMENT_AMOUNT = "ratepay.installmentAmount";

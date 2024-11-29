@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -51,6 +53,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferInfo.JSON_PROPERTY_TYPE,
   TransferInfo.JSON_PROPERTY_ULTIMATE_PARTY
 })
+//pojo
 
 public class TransferInfo {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

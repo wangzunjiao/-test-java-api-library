@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayPalInfo.JSON_PROPERTY_PAYER_ID,
   PayPalInfo.JSON_PROPERTY_SUBJECT
 })
+//pojo
 
 public class PayPalInfo {
   public static final String JSON_PROPERTY_DIRECT_CAPTURE = "directCapture";

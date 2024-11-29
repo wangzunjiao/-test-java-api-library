@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AndroidApp.JSON_PROPERTY_VERSION_CODE,
   AndroidApp.JSON_PROPERTY_VERSION_NAME
 })
+//pojo
 
 public class AndroidApp {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

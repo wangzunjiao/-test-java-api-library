@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountHolderNotificationData.JSON_PROPERTY_ACCOUNT_HOLDER,
   AccountHolderNotificationData.JSON_PROPERTY_BALANCE_PLATFORM
 })
+//pojo
 
 public class AccountHolderNotificationData {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER = "accountHolder";

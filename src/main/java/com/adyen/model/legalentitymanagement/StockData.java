@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StockData.JSON_PROPERTY_STOCK_NUMBER,
   StockData.JSON_PROPERTY_TICKER_SYMBOL
 })
+//pojo
 
 public class StockData {
   public static final String JSON_PROPERTY_MARKET_IDENTIFIER = "marketIdentifier";

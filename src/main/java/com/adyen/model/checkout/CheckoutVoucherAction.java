@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -54,6 +56,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutVoucherAction.JSON_PROPERTY_TYPE,
   CheckoutVoucherAction.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CheckoutVoucherAction {
   public static final String JSON_PROPERTY_ALTERNATIVE_REFERENCE = "alternativeReference";

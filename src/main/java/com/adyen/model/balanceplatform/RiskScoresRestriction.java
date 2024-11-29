@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RiskScoresRestriction.JSON_PROPERTY_OPERATION,
   RiskScoresRestriction.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class RiskScoresRestriction {
   public static final String JSON_PROPERTY_OPERATION = "operation";

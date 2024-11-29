@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Terminal.JSON_PROPERTY_RESTART_LOCAL_TIME,
   Terminal.JSON_PROPERTY_SERIAL_NUMBER
 })
+//pojo
 
 public class Terminal {
   public static final String JSON_PROPERTY_ASSIGNMENT = "assignment";

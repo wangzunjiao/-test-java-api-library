@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RevealPinResponse.JSON_PROPERTY_ENCRYPTED_PIN_BLOCK,
   RevealPinResponse.JSON_PROPERTY_TOKEN
 })
+//pojo
 
 public class RevealPinResponse {
   public static final String JSON_PROPERTY_ENCRYPTED_PIN_BLOCK = "encryptedPinBlock";

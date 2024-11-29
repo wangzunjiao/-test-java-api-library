@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalSettingsResponse.JSON_PROPERTY_INCLUDE_EVENT_CODES,
   AdditionalSettingsResponse.JSON_PROPERTY_PROPERTIES
 })
+//pojo
 
 public class AdditionalSettingsResponse {
   public static final String JSON_PROPERTY_EXCLUDE_EVENT_CODES = "excludeEventCodes";

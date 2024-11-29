@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferInstrumentInfo.JSON_PROPERTY_LEGAL_ENTITY_ID,
   TransferInstrumentInfo.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class TransferInstrumentInfo {
   public static final String JSON_PROPERTY_BANK_ACCOUNT = "bankAccount";

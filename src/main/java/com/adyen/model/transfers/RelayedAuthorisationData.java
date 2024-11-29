@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RelayedAuthorisationData.JSON_PROPERTY_METADATA,
   RelayedAuthorisationData.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class RelayedAuthorisationData {
   public static final String JSON_PROPERTY_METADATA = "metadata";

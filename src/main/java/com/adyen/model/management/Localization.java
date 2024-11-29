@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Localization.JSON_PROPERTY_SECONDARY_LANGUAGE,
   Localization.JSON_PROPERTY_TIMEZONE
 })
+//pojo
 
 public class Localization {
   public static final String JSON_PROPERTY_LANGUAGE = "language";

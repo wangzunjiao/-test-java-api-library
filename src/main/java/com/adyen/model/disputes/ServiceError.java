@@ -12,6 +12,8 @@
 
 package com.adyen.model.disputes;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ServiceError.JSON_PROPERTY_PSP_REFERENCE,
   ServiceError.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class ServiceError {
   public static final String JSON_PROPERTY_ERROR_CODE = "errorCode";

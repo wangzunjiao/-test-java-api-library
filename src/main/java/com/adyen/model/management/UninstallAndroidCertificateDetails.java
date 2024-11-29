@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   UninstallAndroidCertificateDetails.JSON_PROPERTY_CERTIFICATE_ID,
   UninstallAndroidCertificateDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class UninstallAndroidCertificateDetails {
   public static final String JSON_PROPERTY_CERTIFICATE_ID = "certificateId";

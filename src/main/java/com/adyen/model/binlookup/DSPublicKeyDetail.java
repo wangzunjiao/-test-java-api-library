@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DSPublicKeyDetail.JSON_PROPERTY_PUBLIC_KEY,
   DSPublicKeyDetail.JSON_PROPERTY_ROOT_CERTIFICATES
 })
+//pojo
 
 public class DSPublicKeyDetail {
   public static final String JSON_PROPERTY_BRAND = "brand";

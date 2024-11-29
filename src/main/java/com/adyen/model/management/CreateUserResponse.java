@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateUserResponse.JSON_PROPERTY_TIME_ZONE_CODE,
   CreateUserResponse.JSON_PROPERTY_USERNAME
 })
+//pojo
 
 public class CreateUserResponse {
   public static final String JSON_PROPERTY_LINKS = "_links";

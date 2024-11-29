@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardOrder.JSON_PROPERTY_SERVICE_CENTER,
   CardOrder.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class CardOrder {
   public static final String JSON_PROPERTY_BEGIN_DATE = "beginDate";

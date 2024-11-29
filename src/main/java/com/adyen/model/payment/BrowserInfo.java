@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BrowserInfo.JSON_PROPERTY_TIME_ZONE_OFFSET,
   BrowserInfo.JSON_PROPERTY_USER_AGENT
 })
+//pojo
 
 public class BrowserInfo {
   public static final String JSON_PROPERTY_ACCEPT_HEADER = "acceptHeader";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BankIdentification.JSON_PROPERTY_IDENTIFICATION,
   BankIdentification.JSON_PROPERTY_IDENTIFICATION_TYPE
 })
+//pojo
 
 public class BankIdentification {
   public static final String JSON_PROPERTY_COUNTRY = "country";

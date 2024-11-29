@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   LegalEntityAssociation.JSON_PROPERTY_SETTLOR_EXEMPTION_REASON,
   LegalEntityAssociation.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class LegalEntityAssociation {
   public static final String JSON_PROPERTY_ASSOCIATOR_ID = "associatorId";

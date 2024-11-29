@@ -12,6 +12,8 @@
 
 package com.adyen.model.posterminalmanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantAccount.JSON_PROPERTY_MERCHANT_ACCOUNT,
   MerchantAccount.JSON_PROPERTY_STORES
 })
+//pojo
 
 public class MerchantAccount {
   public static final String JSON_PROPERTY_IN_STORE_TERMINALS = "inStoreTerminals";

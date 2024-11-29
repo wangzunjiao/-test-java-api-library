@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DeliveryContact.JSON_PROPERTY_PHONE_NUMBER,
   DeliveryContact.JSON_PROPERTY_WEB_ADDRESS
 })
+//pojo
 
 public class DeliveryContact {
   public static final String JSON_PROPERTY_ADDRESS = "address";

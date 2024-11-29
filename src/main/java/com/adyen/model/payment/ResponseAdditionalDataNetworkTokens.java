@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataNetworkTokens.JSON_PROPERTY_NETWORK_TOKEN_BIN,
   ResponseAdditionalDataNetworkTokens.JSON_PROPERTY_NETWORK_TOKEN_TOKEN_SUMMARY
 })
+//pojo
 
 public class ResponseAdditionalDataNetworkTokens {
   public static final String JSON_PROPERTY_NETWORK_TOKEN_AVAILABLE = "networkToken.available";

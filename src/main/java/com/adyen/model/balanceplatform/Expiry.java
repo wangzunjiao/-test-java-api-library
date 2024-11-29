@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Expiry.JSON_PROPERTY_MONTH,
   Expiry.JSON_PROPERTY_YEAR
 })
+//pojo
 
 public class Expiry {
   public static final String JSON_PROPERTY_MONTH = "month";

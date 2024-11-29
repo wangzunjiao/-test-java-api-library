@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Connectivity.JSON_PROPERTY_SIMCARD_STATUS,
   Connectivity.JSON_PROPERTY_TERMINAL_I_P_ADDRESS_U_R_L
 })
+//pojo
 
 public class Connectivity {
   /**

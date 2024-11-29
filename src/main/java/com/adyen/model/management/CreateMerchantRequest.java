@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateMerchantRequest.JSON_PROPERTY_REFERENCE,
   CreateMerchantRequest.JSON_PROPERTY_SALES_CHANNELS
 })
+//pojo
 
 public class CreateMerchantRequest {
   public static final String JSON_PROPERTY_BUSINESS_LINE_ID = "businessLineId";

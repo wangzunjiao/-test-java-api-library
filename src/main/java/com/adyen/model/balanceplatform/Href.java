@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   Href.JSON_PROPERTY_HREF
 })
+//pojo
 
 public class Href {
   public static final String JSON_PROPERTY_HREF = "href";

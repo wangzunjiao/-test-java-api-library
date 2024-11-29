@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -53,6 +55,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataRisk.JSON_PROPERTY_RISKDATA_RISK_PROFILE_REFERENCE,
   AdditionalDataRisk.JSON_PROPERTY_RISKDATA_SKIP_RISK
 })
+//pojo
 
 public class AdditionalDataRisk {
   public static final String JSON_PROPERTY_RISKDATA_CUSTOM_FIELD_NAME = "riskdata.[customFieldName]";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   Timeouts.JSON_PROPERTY_FROM_ACTIVE_TO_SLEEP
 })
+//pojo
 
 public class Timeouts {
   public static final String JSON_PROPERTY_FROM_ACTIVE_TO_SLEEP = "fromActiveToSleep";

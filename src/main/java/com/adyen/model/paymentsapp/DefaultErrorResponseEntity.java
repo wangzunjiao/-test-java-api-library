@@ -12,6 +12,8 @@
 
 package com.adyen.model.paymentsapp;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DefaultErrorResponseEntity.JSON_PROPERTY_TITLE,
   DefaultErrorResponseEntity.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class DefaultErrorResponseEntity {
   public static final String JSON_PROPERTY_DETAIL = "detail";

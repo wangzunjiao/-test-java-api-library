@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaginatedPaymentInstrumentsResponse.JSON_PROPERTY_HAS_PREVIOUS,
   PaginatedPaymentInstrumentsResponse.JSON_PROPERTY_PAYMENT_INSTRUMENTS
 })
+//pojo
 
 public class PaginatedPaymentInstrumentsResponse {
   public static final String JSON_PROPERTY_HAS_NEXT = "hasNext";

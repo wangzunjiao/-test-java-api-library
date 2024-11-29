@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BulkAddress.JSON_PROPERTY_STATE_OR_PROVINCE,
   BulkAddress.JSON_PROPERTY_STREET
 })
+//pojo
 
 public class BulkAddress {
   public static final String JSON_PROPERTY_CITY = "city";

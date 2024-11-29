@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InstallmentOption.JSON_PROPERTY_PRESELECTED_VALUE,
   InstallmentOption.JSON_PROPERTY_VALUES
 })
+//pojo
 
 public class InstallmentOption {
   public static final String JSON_PROPERTY_MAX_VALUE = "maxValue";

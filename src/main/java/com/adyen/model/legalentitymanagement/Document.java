@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Document.JSON_PROPERTY_OWNER,
   Document.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class Document {
   public static final String JSON_PROPERTY_ATTACHMENT = "attachment";

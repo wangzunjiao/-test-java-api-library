@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -52,6 +54,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountInfo.JSON_PROPERTY_SUSPICIOUS_ACTIVITY,
   AccountInfo.JSON_PROPERTY_WORK_PHONE
 })
+//pojo
 
 public class AccountInfo {
   /**

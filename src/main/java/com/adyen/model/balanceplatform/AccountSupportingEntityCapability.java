@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountSupportingEntityCapability.JSON_PROPERTY_REQUESTED_LEVEL,
   AccountSupportingEntityCapability.JSON_PROPERTY_VERIFICATION_STATUS
 })
+//pojo
 
 public class AccountSupportingEntityCapability {
   public static final String JSON_PROPERTY_ALLOWED = "allowed";

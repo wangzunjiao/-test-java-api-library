@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueVoidResponse.JSON_PROPERTY_RESULT_CODE,
   StoredValueVoidResponse.JSON_PROPERTY_THIRD_PARTY_REFUSAL_REASON
 })
+//pojo
 
 public class StoredValueVoidResponse {
   public static final String JSON_PROPERTY_CURRENT_BALANCE = "currentBalance";

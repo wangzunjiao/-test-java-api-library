@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   VippsInfo.JSON_PROPERTY_LOGO,
   VippsInfo.JSON_PROPERTY_SUBSCRIPTION_CANCEL_URL
 })
+//pojo
 
 public class VippsInfo {
   public static final String JSON_PROPERTY_LOGO = "logo";

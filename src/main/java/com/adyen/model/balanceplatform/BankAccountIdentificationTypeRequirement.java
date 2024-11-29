@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BankAccountIdentificationTypeRequirement.JSON_PROPERTY_DESCRIPTION,
   BankAccountIdentificationTypeRequirement.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class BankAccountIdentificationTypeRequirement {
   /**

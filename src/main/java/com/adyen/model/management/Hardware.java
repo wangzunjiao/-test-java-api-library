@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Hardware.JSON_PROPERTY_RESET_TOTALS_HOUR,
   Hardware.JSON_PROPERTY_RESTART_HOUR
 })
+//pojo
 
 public class Hardware {
   public static final String JSON_PROPERTY_DISPLAY_MAXIMUM_BACK_LIGHT = "displayMaximumBackLight";

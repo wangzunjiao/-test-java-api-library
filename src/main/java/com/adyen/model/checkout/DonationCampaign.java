@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DonationCampaign.JSON_PROPERTY_NONPROFIT_URL,
   DonationCampaign.JSON_PROPERTY_TERMS_AND_CONDITIONS_URL
 })
+//pojo
 
 public class DonationCampaign {
   public static final String JSON_PROPERTY_AMOUNTS = "amounts";

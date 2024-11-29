@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   KlarnaDetails.JSON_PROPERTY_SUBTYPE,
   KlarnaDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class KlarnaDetails {
   public static final String JSON_PROPERTY_BILLING_ADDRESS = "billingAddress";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Address.JSON_PROPERTY_STREET,
   Address.JSON_PROPERTY_STREET2
 })
+//pojo
 
 public class Address {
   public static final String JSON_PROPERTY_CITY = "city";

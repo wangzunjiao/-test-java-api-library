@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutQrCodeAction.JSON_PROPERTY_TYPE,
   CheckoutQrCodeAction.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CheckoutQrCodeAction {
   public static final String JSON_PROPERTY_EXPIRES_AT = "expiresAt";

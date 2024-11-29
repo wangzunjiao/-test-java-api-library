@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   OnboardingLinkSettings.JSON_PROPERTY_REQUIRE_PCI_SIGN_POS_MOTO,
   OnboardingLinkSettings.JSON_PROPERTY_TRANSFER_INSTRUMENT_LIMIT
 })
+//pojo
 
 public class OnboardingLinkSettings {
   public static final String JSON_PROPERTY_ACCEPTED_COUNTRIES = "acceptedCountries";

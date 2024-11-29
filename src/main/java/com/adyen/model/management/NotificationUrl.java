@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   NotificationUrl.JSON_PROPERTY_LOCAL_URLS,
   NotificationUrl.JSON_PROPERTY_PUBLIC_URLS
 })
+//pojo
 
 public class NotificationUrl {
   public static final String JSON_PROPERTY_LOCAL_URLS = "localUrls";

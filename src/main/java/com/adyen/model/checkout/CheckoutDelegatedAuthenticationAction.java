@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutDelegatedAuthenticationAction.JSON_PROPERTY_TYPE,
   CheckoutDelegatedAuthenticationAction.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CheckoutDelegatedAuthenticationAction {
   public static final String JSON_PROPERTY_AUTHORISATION_TOKEN = "authorisationToken";

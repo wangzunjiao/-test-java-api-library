@@ -12,6 +12,8 @@
 
 package com.adyen.model.paymentsapp;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   BoardingTokenRequest.JSON_PROPERTY_BOARDING_REQUEST_TOKEN
 })
+//pojo
 
 public class BoardingTokenRequest {
   public static final String JSON_PROPERTY_BOARDING_REQUEST_TOKEN = "boardingRequestToken";

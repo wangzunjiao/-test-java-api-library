@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Store.JSON_PROPERTY_SPLIT_CONFIGURATION,
   Store.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class Store {
   public static final String JSON_PROPERTY_LINKS = "_links";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AchDetails.JSON_PROPERTY_TRANSFER_INSTRUMENT_ID,
   AchDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class AchDetails {
   public static final String JSON_PROPERTY_BANK_ACCOUNT_NUMBER = "bankAccountNumber";

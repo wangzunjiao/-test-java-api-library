@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   WebData.JSON_PROPERTY_WEB_ADDRESS,
   WebData.JSON_PROPERTY_WEB_ADDRESS_ID
 })
+//pojo
 
 public class WebData {
   public static final String JSON_PROPERTY_WEB_ADDRESS = "webAddress";

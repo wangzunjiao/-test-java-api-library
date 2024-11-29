@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TokenDetails.JSON_PROPERTY_TOKEN_DATA,
   TokenDetails.JSON_PROPERTY_TOKEN_DATA_TYPE
 })
+//pojo
 
 public class TokenDetails {
   public static final String JSON_PROPERTY_TOKEN_DATA = "tokenData";

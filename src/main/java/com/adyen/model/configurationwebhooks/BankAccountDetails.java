@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BankAccountDetails.JSON_PROPERTY_SORT_CODE,
   BankAccountDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class BankAccountDetails {
   public static final String JSON_PROPERTY_ACCOUNT_NUMBER = "accountNumber";

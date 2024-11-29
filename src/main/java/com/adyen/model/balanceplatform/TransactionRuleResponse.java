@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   TransactionRuleResponse.JSON_PROPERTY_TRANSACTION_RULE
 })
+//pojo
 
 public class TransactionRuleResponse {
   public static final String JSON_PROPERTY_TRANSACTION_RULE = "transactionRule";

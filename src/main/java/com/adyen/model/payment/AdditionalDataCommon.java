@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataCommon.JSON_PROPERTY_SUB_MERCHANT_STREET,
   AdditionalDataCommon.JSON_PROPERTY_SUB_MERCHANT_TAX_ID
 })
+//pojo
 
 public class AdditionalDataCommon {
   public static final String JSON_PROPERTY_REQUESTED_TEST_ERROR_RESPONSE_CODE = "RequestedTestErrorResponseCode";

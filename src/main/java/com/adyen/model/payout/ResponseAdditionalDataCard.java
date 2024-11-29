@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataCard.JSON_PROPERTY_CARD_SUMMARY,
   ResponseAdditionalDataCard.JSON_PROPERTY_ISSUER_BIN
 })
+//pojo
 
 public class ResponseAdditionalDataCard {
   public static final String JSON_PROPERTY_CARD_BIN = "cardBin";

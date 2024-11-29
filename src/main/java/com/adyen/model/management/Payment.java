@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Payment.JSON_PROPERTY_CONTACTLESS_CURRENCY,
   Payment.JSON_PROPERTY_HIDE_MINOR_UNITS_IN_CURRENCIES
 })
+//pojo
 
 public class Payment {
   public static final String JSON_PROPERTY_CONTACTLESS_CURRENCY = "contactlessCurrency";

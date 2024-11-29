@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SDKEphemPubKey.JSON_PROPERTY_X,
   SDKEphemPubKey.JSON_PROPERTY_Y
 })
+//pojo
 
 public class SDKEphemPubKey {
   public static final String JSON_PROPERTY_CRV = "crv";

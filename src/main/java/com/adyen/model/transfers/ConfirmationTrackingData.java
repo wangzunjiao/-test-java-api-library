@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ConfirmationTrackingData.JSON_PROPERTY_STATUS,
   ConfirmationTrackingData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class ConfirmationTrackingData {
   /**

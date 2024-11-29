@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueVoidRequest.JSON_PROPERTY_TENDER_REFERENCE,
   StoredValueVoidRequest.JSON_PROPERTY_UNIQUE_TERMINAL_ID
 })
+//pojo
 
 public class StoredValueVoidRequest {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

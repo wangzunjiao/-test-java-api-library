@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapitalGrant.JSON_PROPERTY_REPAYMENT,
   CapitalGrant.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class CapitalGrant {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateCompanyApiCredentialResponse.JSON_PROPERTY_ROLES,
   CreateCompanyApiCredentialResponse.JSON_PROPERTY_USERNAME
 })
+//pojo
 
 public class CreateCompanyApiCredentialResponse {
   public static final String JSON_PROPERTY_LINKS = "_links";

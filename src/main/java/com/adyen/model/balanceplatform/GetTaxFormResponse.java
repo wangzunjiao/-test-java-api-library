@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GetTaxFormResponse.JSON_PROPERTY_CONTENT,
   GetTaxFormResponse.JSON_PROPERTY_CONTENT_TYPE
 })
+//pojo
 
 public class GetTaxFormResponse {
   public static final String JSON_PROPERTY_CONTENT = "content";

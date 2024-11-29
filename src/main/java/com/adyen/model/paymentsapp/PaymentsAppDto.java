@@ -12,6 +12,8 @@
 
 package com.adyen.model.paymentsapp;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentsAppDto.JSON_PROPERTY_MERCHANT_STORE_CODE,
   PaymentsAppDto.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class PaymentsAppDto {
   public static final String JSON_PROPERTY_INSTALLATION_ID = "installationId";

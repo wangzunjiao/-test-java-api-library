@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Item.JSON_PROPERTY_ID,
   Item.JSON_PROPERTY_NAME
 })
+//pojo
 
 public class Item {
   public static final String JSON_PROPERTY_ID = "id";

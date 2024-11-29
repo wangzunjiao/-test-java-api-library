@@ -12,6 +12,8 @@
 
 package com.adyen.model.acswebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ChallengeInfo.JSON_PROPERTY_RESENDS,
   ChallengeInfo.JSON_PROPERTY_RETRIES
 })
+//pojo
 
 public class ChallengeInfo {
   /**

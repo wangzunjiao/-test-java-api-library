@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ShopperInteractionDevice.JSON_PROPERTY_OS,
   ShopperInteractionDevice.JSON_PROPERTY_OS_VERSION
 })
+//pojo
 
 public class ShopperInteractionDevice {
   public static final String JSON_PROPERTY_LOCALE = "locale";

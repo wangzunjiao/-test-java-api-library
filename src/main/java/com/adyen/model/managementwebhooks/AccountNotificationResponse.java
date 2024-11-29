@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   AccountNotificationResponse.JSON_PROPERTY_NOTIFICATION_RESPONSE
 })
+//pojo
 
 public class AccountNotificationResponse {
   public static final String JSON_PROPERTY_NOTIFICATION_RESPONSE = "notificationResponse";

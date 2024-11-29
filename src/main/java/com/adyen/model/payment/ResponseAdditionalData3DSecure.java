@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalData3DSecure.JSON_PROPERTY_SCA_EXEMPTION_REQUESTED,
   ResponseAdditionalData3DSecure.JSON_PROPERTY_THREEDS2_CARD_ENROLLED
 })
+//pojo
 
 public class ResponseAdditionalData3DSecure {
   public static final String JSON_PROPERTY_CARD_HOLDER_INFO = "cardHolderInfo";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   UndefinedBeneficiary.JSON_PROPERTY_DESCRIPTION,
   UndefinedBeneficiary.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class UndefinedBeneficiary {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

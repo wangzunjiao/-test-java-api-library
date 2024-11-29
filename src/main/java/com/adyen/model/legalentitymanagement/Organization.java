@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -57,6 +59,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Organization.JSON_PROPERTY_VAT_NUMBER,
   Organization.JSON_PROPERTY_WEB_DATA
 })
+//pojo
 
 public class Organization {
   public static final String JSON_PROPERTY_COUNTRY_OF_GOVERNING_LAW = "countryOfGoverningLaw";

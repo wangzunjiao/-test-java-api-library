@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -70,6 +72,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferData.JSON_PROPERTY_TRANSACTION_RULES_RESULT,
   TransferData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class TransferData {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER = "accountHolder";

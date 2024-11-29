@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentResult.JSON_PROPERTY_REFUSAL_REASON,
   PaymentResult.JSON_PROPERTY_RESULT_CODE
 })
+//pojo
 
 public class PaymentResult {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

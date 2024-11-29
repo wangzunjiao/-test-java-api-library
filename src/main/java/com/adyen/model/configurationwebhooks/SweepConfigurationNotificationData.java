@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SweepConfigurationNotificationData.JSON_PROPERTY_BALANCE_PLATFORM,
   SweepConfigurationNotificationData.JSON_PROPERTY_SWEEP
 })
+//pojo
 
 public class SweepConfigurationNotificationData {
   public static final String JSON_PROPERTY_ACCOUNT_ID = "accountId";

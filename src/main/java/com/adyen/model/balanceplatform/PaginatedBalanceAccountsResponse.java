@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaginatedBalanceAccountsResponse.JSON_PROPERTY_HAS_NEXT,
   PaginatedBalanceAccountsResponse.JSON_PROPERTY_HAS_PREVIOUS
 })
+//pojo
 
 public class PaginatedBalanceAccountsResponse {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNTS = "balanceAccounts";

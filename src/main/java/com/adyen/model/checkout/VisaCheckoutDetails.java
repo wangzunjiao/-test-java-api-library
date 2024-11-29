@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   VisaCheckoutDetails.JSON_PROPERTY_TYPE,
   VisaCheckoutDetails.JSON_PROPERTY_VISA_CHECKOUT_CALL_ID
 })
+//pojo
 
 public class VisaCheckoutDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

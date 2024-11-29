@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CounterpartyBankRestriction.JSON_PROPERTY_OPERATION,
   CounterpartyBankRestriction.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class CounterpartyBankRestriction {
   public static final String JSON_PROPERTY_OPERATION = "operation";

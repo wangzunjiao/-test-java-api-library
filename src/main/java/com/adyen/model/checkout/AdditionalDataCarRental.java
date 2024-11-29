@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -55,6 +57,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataCarRental.JSON_PROPERTY_TRAVEL_ENTERTAINMENT_AUTH_DATA_DURATION,
   AdditionalDataCarRental.JSON_PROPERTY_TRAVEL_ENTERTAINMENT_AUTH_DATA_MARKET
 })
+//pojo
 
 public class AdditionalDataCarRental {
   public static final String JSON_PROPERTY_CAR_RENTAL_CHECK_OUT_DATE = "carRental.checkOutDate";

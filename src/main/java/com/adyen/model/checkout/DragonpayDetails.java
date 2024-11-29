@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DragonpayDetails.JSON_PROPERTY_SHOPPER_EMAIL,
   DragonpayDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class DragonpayDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

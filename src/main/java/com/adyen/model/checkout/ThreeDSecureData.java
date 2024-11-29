@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDSecureData.JSON_PROPERTY_TRANS_STATUS_REASON,
   ThreeDSecureData.JSON_PROPERTY_XID
 })
+//pojo
 
 public class ThreeDSecureData {
   /**

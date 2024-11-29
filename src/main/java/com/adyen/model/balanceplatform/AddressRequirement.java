@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AddressRequirement.JSON_PROPERTY_REQUIRED_ADDRESS_FIELDS,
   AddressRequirement.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class AddressRequirement {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

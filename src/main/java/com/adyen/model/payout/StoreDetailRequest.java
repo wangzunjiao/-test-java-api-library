@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -57,6 +59,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoreDetailRequest.JSON_PROPERTY_SOCIAL_SECURITY_NUMBER,
   StoreDetailRequest.JSON_PROPERTY_TELEPHONE_NUMBER
 })
+//pojo
 
 public class StoreDetailRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   UpdateStoreRequest.JSON_PROPERTY_SPLIT_CONFIGURATION,
   UpdateStoreRequest.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class UpdateStoreRequest {
   public static final String JSON_PROPERTY_ADDRESS = "address";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BankAccount.JSON_PROPERTY_OWNER_NAME,
   BankAccount.JSON_PROPERTY_TAX_ID
 })
+//pojo
 
 public class BankAccount {
   public static final String JSON_PROPERTY_BANK_ACCOUNT_NUMBER = "bankAccountNumber";

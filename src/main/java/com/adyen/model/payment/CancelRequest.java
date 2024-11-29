@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CancelRequest.JSON_PROPERTY_TENDER_REFERENCE,
   CancelRequest.JSON_PROPERTY_UNIQUE_TERMINAL_ID
 })
+//pojo
 
 public class CancelRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BalancePlatform.JSON_PROPERTY_ID,
   BalancePlatform.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class BalancePlatform {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

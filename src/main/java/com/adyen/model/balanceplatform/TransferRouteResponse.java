@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   TransferRouteResponse.JSON_PROPERTY_TRANSFER_ROUTES
 })
+//pojo
 
 public class TransferRouteResponse {
   public static final String JSON_PROPERTY_TRANSFER_ROUTES = "transferRoutes";

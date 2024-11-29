@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RegisterSCARequest.JSON_PROPERTY_PAYMENT_INSTRUMENT_ID,
   RegisterSCARequest.JSON_PROPERTY_STRONG_CUSTOMER_AUTHENTICATION
 })
+//pojo
 
 public class RegisterSCARequest {
   public static final String JSON_PROPERTY_NAME = "name";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -92,6 +94,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentLinkRequest.JSON_PROPERTY_THEME_ID,
   PaymentLinkRequest.JSON_PROPERTY_THREE_D_S2_REQUEST_DATA
 })
+//pojo
 
 public class PaymentLinkRequest {
   public static final String JSON_PROPERTY_ALLOWED_PAYMENT_METHODS = "allowedPaymentMethods";

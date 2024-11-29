@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutNativeRedirectAction.JSON_PROPERTY_TYPE,
   CheckoutNativeRedirectAction.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CheckoutNativeRedirectAction {
   public static final String JSON_PROPERTY_DATA = "data";

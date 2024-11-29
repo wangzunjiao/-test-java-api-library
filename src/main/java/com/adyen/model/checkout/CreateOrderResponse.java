@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -47,6 +49,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateOrderResponse.JSON_PROPERTY_REMAINING_AMOUNT,
   CreateOrderResponse.JSON_PROPERTY_RESULT_CODE
 })
+//pojo
 
 public class CreateOrderResponse {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

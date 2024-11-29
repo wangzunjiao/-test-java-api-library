@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateOrderRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   CreateOrderRequest.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class CreateOrderRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

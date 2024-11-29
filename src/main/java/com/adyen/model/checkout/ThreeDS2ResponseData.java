@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -51,6 +53,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDS2ResponseData.JSON_PROPERTY_TRANS_STATUS,
   ThreeDS2ResponseData.JSON_PROPERTY_TRANS_STATUS_REASON
 })
+//pojo
 
 public class ThreeDS2ResponseData {
   public static final String JSON_PROPERTY_ACS_CHALLENGE_MANDATED = "acsChallengeMandated";

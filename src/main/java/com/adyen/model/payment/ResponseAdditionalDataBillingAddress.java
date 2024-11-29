@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataBillingAddress.JSON_PROPERTY_BILLING_ADDRESS_STATE_OR_PROVINCE,
   ResponseAdditionalDataBillingAddress.JSON_PROPERTY_BILLING_ADDRESS_STREET
 })
+//pojo
 
 public class ResponseAdditionalDataBillingAddress {
   public static final String JSON_PROPERTY_BILLING_ADDRESS_CITY = "billingAddress.city";

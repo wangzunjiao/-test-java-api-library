@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayAtTable.JSON_PROPERTY_ENABLE_PAY_AT_TABLE,
   PayAtTable.JSON_PROPERTY_PAYMENT_INSTRUMENT
 })
+//pojo
 
 public class PayAtTable {
   /**

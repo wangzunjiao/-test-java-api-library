@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalActionScheduleDetail.JSON_PROPERTY_ID,
   TerminalActionScheduleDetail.JSON_PROPERTY_TERMINAL_ID
 })
+//pojo
 
 public class TerminalActionScheduleDetail {
   public static final String JSON_PROPERTY_ID = "id";

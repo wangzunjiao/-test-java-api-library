@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueBalanceMergeRequest.JSON_PROPERTY_SOURCE_PAYMENT_METHOD,
   StoredValueBalanceMergeRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class StoredValueBalanceMergeRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

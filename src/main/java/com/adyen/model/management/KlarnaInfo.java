@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   KlarnaInfo.JSON_PROPERTY_REGION,
   KlarnaInfo.JSON_PROPERTY_SUPPORT_EMAIL
 })
+//pojo
 
 public class KlarnaInfo {
   public static final String JSON_PROPERTY_AUTO_CAPTURE = "autoCapture";

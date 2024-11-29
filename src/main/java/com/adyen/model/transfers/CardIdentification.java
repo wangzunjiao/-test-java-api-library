@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardIdentification.JSON_PROPERTY_START_YEAR,
   CardIdentification.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID
 })
+//pojo
 
 public class CardIdentification {
   public static final String JSON_PROPERTY_EXPIRY_MONTH = "expiryMonth";

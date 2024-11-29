@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AULocalAccountIdentification.JSON_PROPERTY_BSB_CODE,
   AULocalAccountIdentification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class AULocalAccountIdentification {
   public static final String JSON_PROPERTY_ACCOUNT_NUMBER = "accountNumber";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RivertyDetails.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID,
   RivertyDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class RivertyDetails {
   public static final String JSON_PROPERTY_BILLING_ADDRESS = "billingAddress";

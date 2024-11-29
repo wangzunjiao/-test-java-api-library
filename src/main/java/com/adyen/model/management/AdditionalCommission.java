@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalCommission.JSON_PROPERTY_FIXED_AMOUNT,
   AdditionalCommission.JSON_PROPERTY_VARIABLE_PERCENTAGE
 })
+//pojo
 
 public class AdditionalCommission {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

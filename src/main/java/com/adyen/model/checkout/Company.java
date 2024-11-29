@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Company.JSON_PROPERTY_TAX_ID,
   Company.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class Company {
   public static final String JSON_PROPERTY_HOMEPAGE = "homepage";

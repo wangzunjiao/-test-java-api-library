@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   UtilityRequest.JSON_PROPERTY_ORIGIN_DOMAINS
 })
+//pojo
 
 public class UtilityRequest {
   public static final String JSON_PROPERTY_ORIGIN_DOMAINS = "originDomains";

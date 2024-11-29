@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RegisterSCAResponse.JSON_PROPERTY_SDK_INPUT,
   RegisterSCAResponse.JSON_PROPERTY_SUCCESS
 })
+//pojo
 
 public class RegisterSCAResponse {
   public static final String JSON_PROPERTY_ID = "id";

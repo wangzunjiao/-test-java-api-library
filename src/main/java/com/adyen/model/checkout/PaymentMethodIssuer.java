@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodIssuer.JSON_PROPERTY_ID,
   PaymentMethodIssuer.JSON_PROPERTY_NAME
 })
+//pojo
 
 public class PaymentMethodIssuer {
   public static final String JSON_PROPERTY_DISABLED = "disabled";

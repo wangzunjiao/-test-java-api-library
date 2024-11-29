@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaypalUpdateOrderRequest.JSON_PROPERTY_SESSION_ID,
   PaypalUpdateOrderRequest.JSON_PROPERTY_TAX_TOTAL
 })
+//pojo
 
 public class PaypalUpdateOrderRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Authentication.JSON_PROPERTY_PASSWORD,
   Authentication.JSON_PROPERTY_PHONE
 })
+//pojo
 
 public class Authentication {
   public static final String JSON_PROPERTY_EMAIL = "email";

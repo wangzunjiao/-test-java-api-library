@@ -12,6 +12,8 @@
 
 package com.adyen.model.transactionwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferView.JSON_PROPERTY_ID,
   TransferView.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class TransferView {
   public static final String JSON_PROPERTY_CATEGORY_DATA = "categoryData";

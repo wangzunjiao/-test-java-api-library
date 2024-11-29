@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -47,6 +49,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataRiskStandalone.JSON_PROPERTY_THREE_D_OFFERED,
   AdditionalDataRiskStandalone.JSON_PROPERTY_TOKEN_DATA_TYPE
 })
+//pojo
 
 public class AdditionalDataRiskStandalone {
   public static final String JSON_PROPERTY_PAY_PAL_COUNTRY_CODE = "PayPal.CountryCode";

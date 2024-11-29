@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   DataReviewConfirmationResponse.JSON_PROPERTY_DATA_REVIEWED_AT
 })
+//pojo
 
 public class DataReviewConfirmationResponse {
   public static final String JSON_PROPERTY_DATA_REVIEWED_AT = "dataReviewedAt";

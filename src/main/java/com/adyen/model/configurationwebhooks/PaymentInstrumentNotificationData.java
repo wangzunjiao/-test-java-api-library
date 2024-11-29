@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentInstrumentNotificationData.JSON_PROPERTY_BALANCE_PLATFORM,
   PaymentInstrumentNotificationData.JSON_PROPERTY_PAYMENT_INSTRUMENT
 })
+//pojo
 
 public class PaymentInstrumentNotificationData {
   public static final String JSON_PROPERTY_BALANCE_PLATFORM = "balancePlatform";

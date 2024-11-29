@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CALocalAccountIdentification.JSON_PROPERTY_TRANSIT_NUMBER,
   CALocalAccountIdentification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CALocalAccountIdentification {
   public static final String JSON_PROPERTY_ACCOUNT_NUMBER = "accountNumber";

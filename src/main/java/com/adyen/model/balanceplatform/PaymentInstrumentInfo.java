@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentInstrumentInfo.JSON_PROPERTY_STATUS_REASON,
   PaymentInstrumentInfo.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PaymentInstrumentInfo {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

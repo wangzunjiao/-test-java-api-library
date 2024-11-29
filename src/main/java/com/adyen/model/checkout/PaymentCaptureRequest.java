@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentCaptureRequest.JSON_PROPERTY_SPLITS,
   PaymentCaptureRequest.JSON_PROPERTY_SUB_MERCHANTS
 })
+//pojo
 
 public class PaymentCaptureRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

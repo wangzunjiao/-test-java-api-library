@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDS2CardRangeDetail.JSON_PROPERTY_THREE_D_S2_VERSIONS,
   ThreeDS2CardRangeDetail.JSON_PROPERTY_THREE_D_S_METHOD_U_R_L
 })
+//pojo
 
 public class ThreeDS2CardRangeDetail {
   public static final String JSON_PROPERTY_ACS_INFO_IND = "acsInfoInd";

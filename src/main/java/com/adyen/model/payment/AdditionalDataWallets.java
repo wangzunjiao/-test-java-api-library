@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataWallets.JSON_PROPERTY_SAMSUNGPAY_TOKEN,
   AdditionalDataWallets.JSON_PROPERTY_VISACHECKOUT_CALL_ID
 })
+//pojo
 
 public class AdditionalDataWallets {
   public static final String JSON_PROPERTY_ANDROIDPAY_TOKEN = "androidpay.token";

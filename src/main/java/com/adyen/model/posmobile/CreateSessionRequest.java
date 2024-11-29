@@ -12,6 +12,8 @@
 
 package com.adyen.model.posmobile;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateSessionRequest.JSON_PROPERTY_SETUP_TOKEN,
   CreateSessionRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class CreateSessionRequest {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

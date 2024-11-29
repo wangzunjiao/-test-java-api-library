@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentInstrument.JSON_PROPERTY_REFERENCE,
   PaymentInstrument.JSON_PROPERTY_TOKEN_TYPE
 })
+//pojo
 
 public class PaymentInstrument {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

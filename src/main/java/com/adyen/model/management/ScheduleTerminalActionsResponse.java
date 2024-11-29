@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ScheduleTerminalActionsResponse.JSON_PROPERTY_TOTAL_ERRORS,
   ScheduleTerminalActionsResponse.JSON_PROPERTY_TOTAL_SCHEDULED
 })
+//pojo
 
 public class ScheduleTerminalActionsResponse {
   public static final String JSON_PROPERTY_ACTION_DETAILS = "actionDetails";

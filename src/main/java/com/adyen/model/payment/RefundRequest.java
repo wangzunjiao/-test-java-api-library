@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -51,6 +53,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RefundRequest.JSON_PROPERTY_TENDER_REFERENCE,
   RefundRequest.JSON_PROPERTY_UNIQUE_TERMINAL_ID
 })
+//pojo
 
 public class RefundRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

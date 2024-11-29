@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DisablePermitRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   DisablePermitRequest.JSON_PROPERTY_TOKEN
 })
+//pojo
 
 public class DisablePermitRequest {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

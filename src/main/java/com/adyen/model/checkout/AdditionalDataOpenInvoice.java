@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataOpenInvoice.JSON_PROPERTY_OPENINVOICEDATA_LINE_ITEM_NR_TRACKING_NUMBER,
   AdditionalDataOpenInvoice.JSON_PROPERTY_OPENINVOICEDATA_LINE_ITEM_NR_TRACKING_URI
 })
+//pojo
 
 public class AdditionalDataOpenInvoice {
   public static final String JSON_PROPERTY_OPENINVOICEDATA_MERCHANT_DATA = "openinvoicedata.merchantData";

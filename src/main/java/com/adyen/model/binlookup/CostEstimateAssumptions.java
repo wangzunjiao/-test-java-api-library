@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CostEstimateAssumptions.JSON_PROPERTY_ASSUME_LEVEL3_DATA,
   CostEstimateAssumptions.JSON_PROPERTY_INSTALLMENTS
 })
+//pojo
 
 public class CostEstimateAssumptions {
   public static final String JSON_PROPERTY_ASSUME3_D_SECURE_AUTHENTICATED = "assume3DSecureAuthenticated";

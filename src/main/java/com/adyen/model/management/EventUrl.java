@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   EventUrl.JSON_PROPERTY_EVENT_LOCAL_URLS,
   EventUrl.JSON_PROPERTY_EVENT_PUBLIC_URLS
 })
+//pojo
 
 public class EventUrl {
   public static final String JSON_PROPERTY_EVENT_LOCAL_URLS = "eventLocalUrls";

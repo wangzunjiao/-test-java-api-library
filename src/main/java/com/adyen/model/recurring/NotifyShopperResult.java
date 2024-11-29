@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   NotifyShopperResult.JSON_PROPERTY_SHOPPER_NOTIFICATION_REFERENCE,
   NotifyShopperResult.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID
 })
+//pojo
 
 public class NotifyShopperResult {
   public static final String JSON_PROPERTY_DISPLAYED_REFERENCE = "displayedReference";

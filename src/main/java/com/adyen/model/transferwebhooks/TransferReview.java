@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferReview.JSON_PROPERTY_NUMBER_OF_APPROVALS_REQUIRED,
   TransferReview.JSON_PROPERTY_SCA_ON_APPROVAL
 })
+//pojo
 
 public class TransferReview {
   public static final String JSON_PROPERTY_NUMBER_OF_APPROVALS_COMPLETED = "numberOfApprovalsCompleted";

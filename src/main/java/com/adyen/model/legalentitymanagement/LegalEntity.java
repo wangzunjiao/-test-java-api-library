@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -62,6 +64,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   LegalEntity.JSON_PROPERTY_VERIFICATION_DEADLINES,
   LegalEntity.JSON_PROPERTY_VERIFICATION_PLAN
 })
+//pojo
 
 public class LegalEntity {
   public static final String JSON_PROPERTY_CAPABILITIES = "capabilities";

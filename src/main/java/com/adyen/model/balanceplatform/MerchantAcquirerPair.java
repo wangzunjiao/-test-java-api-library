@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantAcquirerPair.JSON_PROPERTY_ACQUIRER_ID,
   MerchantAcquirerPair.JSON_PROPERTY_MERCHANT_ID
 })
+//pojo
 
 public class MerchantAcquirerPair {
   public static final String JSON_PROPERTY_ACQUIRER_ID = "acquirerId";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ProcessingTypesRestriction.JSON_PROPERTY_OPERATION,
   ProcessingTypesRestriction.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class ProcessingTypesRestriction {
   public static final String JSON_PROPERTY_OPERATION = "operation";

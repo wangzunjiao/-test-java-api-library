@@ -12,6 +12,8 @@
 
 package com.adyen.model.acswebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AuthenticationInfo.JSON_PROPERTY_TRANS_STATUS_REASON,
   AuthenticationInfo.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class AuthenticationInfo {
   public static final String JSON_PROPERTY_ACS_TRANS_ID = "acsTransId";

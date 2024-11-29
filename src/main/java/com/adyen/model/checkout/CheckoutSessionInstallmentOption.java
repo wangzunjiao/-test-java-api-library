@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutSessionInstallmentOption.JSON_PROPERTY_PRESELECTED_VALUE,
   CheckoutSessionInstallmentOption.JSON_PROPERTY_VALUES
 })
+//pojo
 
 public class CheckoutSessionInstallmentOption {
   /**

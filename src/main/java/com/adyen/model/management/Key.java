@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Key.JSON_PROPERTY_PASSPHRASE,
   Key.JSON_PROPERTY_VERSION
 })
+//pojo
 
 public class Key {
   public static final String JSON_PROPERTY_IDENTIFIER = "identifier";

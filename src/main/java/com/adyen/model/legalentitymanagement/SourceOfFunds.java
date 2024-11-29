@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SourceOfFunds.JSON_PROPERTY_DESCRIPTION,
   SourceOfFunds.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class SourceOfFunds {
   public static final String JSON_PROPERTY_ACQUIRING_BUSINESS_LINE_ID = "acquiringBusinessLineId";

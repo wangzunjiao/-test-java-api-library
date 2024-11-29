@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Standalone.JSON_PROPERTY_CURRENCY_CODE,
   Standalone.JSON_PROPERTY_ENABLE_STANDALONE
 })
+//pojo
 
 public class Standalone {
   public static final String JSON_PROPERTY_CURRENCY_CODE = "currencyCode";
