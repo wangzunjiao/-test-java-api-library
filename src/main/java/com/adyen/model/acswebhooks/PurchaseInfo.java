@@ -12,6 +12,8 @@
 
 package com.adyen.model.acswebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PurchaseInfo.JSON_PROPERTY_MERCHANT_NAME,
   PurchaseInfo.JSON_PROPERTY_ORIGINAL_AMOUNT
 })
+//pojo
 
 public class PurchaseInfo {
   public static final String JSON_PROPERTY_DATE = "date";

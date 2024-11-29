@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -91,6 +93,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataCommon.JSON_PROPERTY_VISA_TRANSACTION_ID,
   ResponseAdditionalDataCommon.JSON_PROPERTY_XID
 })
+//pojo
 
 public class ResponseAdditionalDataCommon {
   public static final String JSON_PROPERTY_ACQUIRER_ACCOUNT_CODE = "acquirerAccountCode";

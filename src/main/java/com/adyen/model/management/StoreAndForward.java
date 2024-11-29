@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoreAndForward.JSON_PROPERTY_MAX_PAYMENTS,
   StoreAndForward.JSON_PROPERTY_SUPPORTED_CARD_TYPES
 })
+//pojo
 
 public class StoreAndForward {
   public static final String JSON_PROPERTY_MAX_AMOUNT = "maxAmount";

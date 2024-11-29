@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GeneratePciDescriptionResponse.JSON_PROPERTY_LANGUAGE,
   GeneratePciDescriptionResponse.JSON_PROPERTY_PCI_TEMPLATE_REFERENCES
 })
+//pojo
 
 public class GeneratePciDescriptionResponse {
   public static final String JSON_PROPERTY_CONTENT = "content";

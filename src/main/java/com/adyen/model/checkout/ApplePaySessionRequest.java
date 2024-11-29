@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ApplePaySessionRequest.JSON_PROPERTY_DOMAIN_NAME,
   ApplePaySessionRequest.JSON_PROPERTY_MERCHANT_IDENTIFIER
 })
+//pojo
 
 public class ApplePaySessionRequest {
   public static final String JSON_PROPERTY_DISPLAY_NAME = "displayName";

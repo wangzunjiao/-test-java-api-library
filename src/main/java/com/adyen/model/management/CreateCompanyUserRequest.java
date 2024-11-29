@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateCompanyUserRequest.JSON_PROPERTY_TIME_ZONE_CODE,
   CreateCompanyUserRequest.JSON_PROPERTY_USERNAME
 })
+//pojo
 
 public class CreateCompanyUserRequest {
   public static final String JSON_PROPERTY_ACCOUNT_GROUPS = "accountGroups";

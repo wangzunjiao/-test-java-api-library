@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalConnectivityCellular.JSON_PROPERTY_ICCID,
   TerminalConnectivityCellular.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class TerminalConnectivityCellular {
   public static final String JSON_PROPERTY_ICCID = "iccid";

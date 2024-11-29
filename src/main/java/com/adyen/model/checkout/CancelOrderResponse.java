@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CancelOrderResponse.JSON_PROPERTY_PSP_REFERENCE,
   CancelOrderResponse.JSON_PROPERTY_RESULT_CODE
 })
+//pojo
 
 public class CancelOrderResponse {
   public static final String JSON_PROPERTY_PSP_REFERENCE = "pspReference";

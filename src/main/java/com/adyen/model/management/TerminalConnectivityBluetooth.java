@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalConnectivityBluetooth.JSON_PROPERTY_IP_ADDRESS,
   TerminalConnectivityBluetooth.JSON_PROPERTY_MAC_ADDRESS
 })
+//pojo
 
 public class TerminalConnectivityBluetooth {
   public static final String JSON_PROPERTY_IP_ADDRESS = "ipAddress";

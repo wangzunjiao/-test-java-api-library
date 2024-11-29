@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Donation.JSON_PROPERTY_MAX_ROUNDUP_AMOUNT,
   Donation.JSON_PROPERTY_VALUES
 })
+//pojo
 
 public class Donation {
   public static final String JSON_PROPERTY_CURRENCY = "currency";

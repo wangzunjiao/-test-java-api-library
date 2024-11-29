@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ExternalTerminalAction.JSON_PROPERTY_STATUS,
   ExternalTerminalAction.JSON_PROPERTY_TERMINAL_ID
 })
+//pojo
 
 public class ExternalTerminalAction {
   public static final String JSON_PROPERTY_ACTION_TYPE = "actionType";

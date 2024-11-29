@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   OnboardingTheme.JSON_PROPERTY_PROPERTIES,
   OnboardingTheme.JSON_PROPERTY_UPDATED_AT
 })
+//pojo
 
 public class OnboardingTheme {
   public static final String JSON_PROPERTY_CREATED_AT = "createdAt";

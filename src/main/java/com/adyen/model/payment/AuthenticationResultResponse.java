@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AuthenticationResultResponse.JSON_PROPERTY_THREE_D_S1_RESULT,
   AuthenticationResultResponse.JSON_PROPERTY_THREE_D_S2_RESULT
 })
+//pojo
 
 public class AuthenticationResultResponse {
   public static final String JSON_PROPERTY_THREE_D_S1_RESULT = "threeDS1Result";

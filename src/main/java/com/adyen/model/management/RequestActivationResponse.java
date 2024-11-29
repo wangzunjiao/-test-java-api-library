@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RequestActivationResponse.JSON_PROPERTY_COMPANY_ID,
   RequestActivationResponse.JSON_PROPERTY_MERCHANT_ID
 })
+//pojo
 
 public class RequestActivationResponse {
   public static final String JSON_PROPERTY_COMPANY_ID = "companyId";

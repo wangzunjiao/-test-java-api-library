@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   DetailsRequestAuthenticationData.JSON_PROPERTY_AUTHENTICATION_ONLY
 })
+//pojo
 
 public class DetailsRequestAuthenticationData {
   public static final String JSON_PROPERTY_AUTHENTICATION_ONLY = "authenticationOnly";

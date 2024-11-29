@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   VerificationError.JSON_PROPERTY_SUB_ERRORS,
   VerificationError.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class VerificationError {
   public static final String JSON_PROPERTY_CODE = "code";

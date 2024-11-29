@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CostEstimateRequest.JSON_PROPERTY_SHOPPER_INTERACTION,
   CostEstimateRequest.JSON_PROPERTY_SHOPPER_REFERENCE
 })
+//pojo
 
 public class CostEstimateRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalConnectivityEthernet.JSON_PROPERTY_LINK_NEGOTIATION,
   TerminalConnectivityEthernet.JSON_PROPERTY_MAC_ADDRESS
 })
+//pojo
 
 public class TerminalConnectivityEthernet {
   public static final String JSON_PROPERTY_IP_ADDRESS = "ipAddress";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PinChangeRequest.JSON_PROPERTY_PAYMENT_INSTRUMENT_ID,
   PinChangeRequest.JSON_PROPERTY_TOKEN
 })
+//pojo
 
 public class PinChangeRequest {
   public static final String JSON_PROPERTY_ENCRYPTED_KEY = "encryptedKey";

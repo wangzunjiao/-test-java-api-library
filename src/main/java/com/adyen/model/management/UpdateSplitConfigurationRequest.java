@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   UpdateSplitConfigurationRequest.JSON_PROPERTY_DESCRIPTION
 })
+//pojo
 
 public class UpdateSplitConfigurationRequest {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

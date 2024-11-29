@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CartesBancairesInfo.JSON_PROPERTY_SIRET,
   CartesBancairesInfo.JSON_PROPERTY_TRANSACTION_DESCRIPTION
 })
+//pojo
 
 public class CartesBancairesInfo {
   public static final String JSON_PROPERTY_SIRET = "siret";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantNamesRestriction.JSON_PROPERTY_OPERATION,
   MerchantNamesRestriction.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class MerchantNamesRestriction {
   public static final String JSON_PROPERTY_OPERATION = "operation";

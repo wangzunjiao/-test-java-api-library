@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RestServiceError.JSON_PROPERTY_TITLE,
   RestServiceError.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class RestServiceError {
   public static final String JSON_PROPERTY_DETAIL = "detail";

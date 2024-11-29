@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PermitResult.JSON_PROPERTY_RESULT_KEY,
   PermitResult.JSON_PROPERTY_TOKEN
 })
+//pojo
 
 public class PermitResult {
   public static final String JSON_PROPERTY_RESULT_KEY = "resultKey";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.disputes;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   DefendDisputeResponse.JSON_PROPERTY_DISPUTE_SERVICE_RESULT
 })
+//pojo
 
 public class DefendDisputeResponse {
   public static final String JSON_PROPERTY_DISPUTE_SERVICE_RESULT = "disputeServiceResult";

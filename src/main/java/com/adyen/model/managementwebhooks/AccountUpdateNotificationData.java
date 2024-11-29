@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountUpdateNotificationData.JSON_PROPERTY_MERCHANT_ID,
   AccountUpdateNotificationData.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class AccountUpdateNotificationData {
   public static final String JSON_PROPERTY_CAPABILITIES = "capabilities";

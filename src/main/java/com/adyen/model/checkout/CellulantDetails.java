@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CellulantDetails.JSON_PROPERTY_ISSUER,
   CellulantDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CellulantDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferRequestReview.JSON_PROPERTY_NUMBER_OF_APPROVALS_REQUIRED,
   TransferRequestReview.JSON_PROPERTY_SCA_ON_APPROVAL
 })
+//pojo
 
 public class TransferRequestReview {
   public static final String JSON_PROPERTY_NUMBER_OF_APPROVALS_REQUIRED = "numberOfApprovalsRequired";

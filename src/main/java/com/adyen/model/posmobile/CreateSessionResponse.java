@@ -12,6 +12,8 @@
 
 package com.adyen.model.posmobile;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateSessionResponse.JSON_PROPERTY_SDK_DATA,
   CreateSessionResponse.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class CreateSessionResponse {
   public static final String JSON_PROPERTY_ID = "id";

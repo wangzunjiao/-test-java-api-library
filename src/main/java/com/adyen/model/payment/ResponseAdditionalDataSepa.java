@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataSepa.JSON_PROPERTY_SEPADIRECTDEBIT_MANDATE_ID,
   ResponseAdditionalDataSepa.JSON_PROPERTY_SEPADIRECTDEBIT_SEQUENCE_TYPE
 })
+//pojo
 
 public class ResponseAdditionalDataSepa {
   public static final String JSON_PROPERTY_SEPADIRECTDEBIT_DATE_OF_SIGNATURE = "sepadirectdebit.dateOfSignature";

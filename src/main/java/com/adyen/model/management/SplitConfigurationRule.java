@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SplitConfigurationRule.JSON_PROPERTY_SHOPPER_INTERACTION,
   SplitConfigurationRule.JSON_PROPERTY_SPLIT_LOGIC
 })
+//pojo
 
 public class SplitConfigurationRule {
   public static final String JSON_PROPERTY_CURRENCY = "currency";

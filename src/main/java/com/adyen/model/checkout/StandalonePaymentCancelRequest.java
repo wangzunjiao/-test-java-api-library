@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StandalonePaymentCancelRequest.JSON_PROPERTY_PAYMENT_REFERENCE,
   StandalonePaymentCancelRequest.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class StandalonePaymentCancelRequest {
   public static final String JSON_PROPERTY_APPLICATION_INFO = "applicationInfo";

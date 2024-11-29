@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Notification.JSON_PROPERTY_SHOW_BUTTON,
   Notification.JSON_PROPERTY_TITLE
 })
+//pojo
 
 public class Notification {
   /**

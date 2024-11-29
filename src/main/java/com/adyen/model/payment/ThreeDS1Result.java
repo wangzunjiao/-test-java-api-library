@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDS1Result.JSON_PROPERTY_THREE_D_OFFERED_RESPONSE,
   ThreeDS1Result.JSON_PROPERTY_XID
 })
+//pojo
 
 public class ThreeDS1Result {
   public static final String JSON_PROPERTY_CAVV = "cavv";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -51,6 +53,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredPaymentMethod.JSON_PROPERTY_SUPPORTED_SHOPPER_INTERACTIONS,
   StoredPaymentMethod.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class StoredPaymentMethod {
   public static final String JSON_PROPERTY_BANK_ACCOUNT_NUMBER = "bankAccountNumber";

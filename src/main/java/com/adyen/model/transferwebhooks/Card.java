@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Card.JSON_PROPERTY_CARD_HOLDER,
   Card.JSON_PROPERTY_CARD_IDENTIFICATION
 })
+//pojo
 
 public class Card {
   public static final String JSON_PROPERTY_CARD_HOLDER = "cardHolder";

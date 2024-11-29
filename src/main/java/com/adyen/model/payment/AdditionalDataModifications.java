@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   AdditionalDataModifications.JSON_PROPERTY_INSTALLMENT_PAYMENT_DATA_SELECTED_INSTALLMENT_OPTION
 })
+//pojo
 
 public class AdditionalDataModifications {
   public static final String JSON_PROPERTY_INSTALLMENT_PAYMENT_DATA_SELECTED_INSTALLMENT_OPTION = "installmentPaymentData.selectedInstallmentOption";

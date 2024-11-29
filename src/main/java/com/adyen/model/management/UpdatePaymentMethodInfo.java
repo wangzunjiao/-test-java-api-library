@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -63,6 +65,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   UpdatePaymentMethodInfo.JSON_PROPERTY_STORE_IDS,
   UpdatePaymentMethodInfo.JSON_PROPERTY_VISA
 })
+//pojo
 
 public class UpdatePaymentMethodInfo {
   public static final String JSON_PROPERTY_ACCEL = "accel";

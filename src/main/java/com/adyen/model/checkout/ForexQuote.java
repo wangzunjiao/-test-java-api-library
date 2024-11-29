@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ForexQuote.JSON_PROPERTY_TYPE,
   ForexQuote.JSON_PROPERTY_VALID_TILL
 })
+//pojo
 
 public class ForexQuote {
   public static final String JSON_PROPERTY_ACCOUNT = "account";

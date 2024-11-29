@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Card.JSON_PROPERTY_START_MONTH,
   Card.JSON_PROPERTY_START_YEAR
 })
+//pojo
 
 public class Card {
   public static final String JSON_PROPERTY_CVC = "cvc";

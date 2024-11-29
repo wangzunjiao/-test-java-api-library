@@ -12,6 +12,8 @@
 
 package com.adyen.model.disputes;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AcceptDisputeRequest.JSON_PROPERTY_DISPUTE_PSP_REFERENCE,
   AcceptDisputeRequest.JSON_PROPERTY_MERCHANT_ACCOUNT_CODE
 })
+//pojo
 
 public class AcceptDisputeRequest {
   public static final String JSON_PROPERTY_DISPUTE_PSP_REFERENCE = "disputePspReference";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Balance.JSON_PROPERTY_PENDING,
   Balance.JSON_PROPERTY_RESERVED
 })
+//pojo
 
 public class Balance {
   public static final String JSON_PROPERTY_AVAILABLE = "available";

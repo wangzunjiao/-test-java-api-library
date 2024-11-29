@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalReassignmentTarget.JSON_PROPERTY_MERCHANT_ID,
   TerminalReassignmentTarget.JSON_PROPERTY_STORE_ID
 })
+//pojo
 
 public class TerminalReassignmentTarget {
   public static final String JSON_PROPERTY_COMPANY_ID = "companyId";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GetPciQuestionnaireResponse.JSON_PROPERTY_ID,
   GetPciQuestionnaireResponse.JSON_PROPERTY_VALID_UNTIL
 })
+//pojo
 
 public class GetPciQuestionnaireResponse {
   public static final String JSON_PROPERTY_CONTENT = "content";

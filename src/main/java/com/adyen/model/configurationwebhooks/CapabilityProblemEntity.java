@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapabilityProblemEntity.JSON_PROPERTY_OWNER,
   CapabilityProblemEntity.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CapabilityProblemEntity {
   public static final String JSON_PROPERTY_DOCUMENTS = "documents";

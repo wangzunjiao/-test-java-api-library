@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AmountAdjustment.JSON_PROPERTY_AMOUNT_ADJUSTMENT_TYPE,
   AmountAdjustment.JSON_PROPERTY_BASEPOINTS
 })
+//pojo
 
 public class AmountAdjustment {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

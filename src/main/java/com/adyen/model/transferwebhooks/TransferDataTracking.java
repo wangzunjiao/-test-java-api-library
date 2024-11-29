@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;

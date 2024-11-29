@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AmountMinMaxRequirement.JSON_PROPERTY_MIN,
   AmountMinMaxRequirement.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class AmountMinMaxRequirement {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

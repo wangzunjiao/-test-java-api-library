@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   IdentificationData.JSON_PROPERTY_NUMBER,
   IdentificationData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class IdentificationData {
   public static final String JSON_PROPERTY_CARD_NUMBER = "cardNumber";

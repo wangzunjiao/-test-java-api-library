@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantDevice.JSON_PROPERTY_OS_VERSION,
   MerchantDevice.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class MerchantDevice {
   public static final String JSON_PROPERTY_OS = "os";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DeviceRenderOptions.JSON_PROPERTY_SDK_INTERFACE,
   DeviceRenderOptions.JSON_PROPERTY_SDK_UI_TYPE
 })
+//pojo
 
 public class DeviceRenderOptions {
   /**

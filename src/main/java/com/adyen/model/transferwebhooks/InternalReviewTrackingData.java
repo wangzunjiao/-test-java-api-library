@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InternalReviewTrackingData.JSON_PROPERTY_STATUS,
   InternalReviewTrackingData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class InternalReviewTrackingData {
   /**

@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RecurringDetailsResult.JSON_PROPERTY_LAST_KNOWN_SHOPPER_EMAIL,
   RecurringDetailsResult.JSON_PROPERTY_SHOPPER_REFERENCE
 })
+//pojo
 
 public class RecurringDetailsResult {
   public static final String JSON_PROPERTY_CREATION_DATE = "creationDate";

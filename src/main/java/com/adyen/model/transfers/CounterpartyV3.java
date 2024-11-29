@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CounterpartyV3.JSON_PROPERTY_MERCHANT,
   CounterpartyV3.JSON_PROPERTY_TRANSFER_INSTRUMENT_ID
 })
+//pojo
 
 public class CounterpartyV3 {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalProductPrice.JSON_PROPERTY_CURRENCY,
   TerminalProductPrice.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class TerminalProductPrice {
   public static final String JSON_PROPERTY_CURRENCY = "currency";

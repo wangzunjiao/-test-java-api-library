@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataLodging.JSON_PROPERTY_TRAVEL_ENTERTAINMENT_AUTH_DATA_DURATION,
   AdditionalDataLodging.JSON_PROPERTY_TRAVEL_ENTERTAINMENT_AUTH_DATA_MARKET
 })
+//pojo
 
 public class AdditionalDataLodging {
   public static final String JSON_PROPERTY_LODGING_SPECIAL_PROGRAM_CODE = "lodging.SpecialProgramCode";

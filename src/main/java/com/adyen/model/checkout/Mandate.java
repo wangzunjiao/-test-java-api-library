@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Mandate.JSON_PROPERTY_REMARKS,
   Mandate.JSON_PROPERTY_STARTS_AT
 })
+//pojo
 
 public class Mandate {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

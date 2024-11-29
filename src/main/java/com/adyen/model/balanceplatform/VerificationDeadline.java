@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   VerificationDeadline.JSON_PROPERTY_ENTITY_IDS,
   VerificationDeadline.JSON_PROPERTY_EXPIRES_AT
 })
+//pojo
 
 public class VerificationDeadline {
   /**

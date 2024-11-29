@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   LineItem.JSON_PROPERTY_TAX_PERCENTAGE,
   LineItem.JSON_PROPERTY_UPC
 })
+//pojo
 
 public class LineItem {
   public static final String JSON_PROPERTY_AMOUNT_EXCLUDING_TAX = "amountExcludingTax";

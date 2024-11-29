@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   OnboardingLinkInfo.JSON_PROPERTY_SETTINGS,
   OnboardingLinkInfo.JSON_PROPERTY_THEME_ID
 })
+//pojo
 
 public class OnboardingLinkInfo {
   public static final String JSON_PROPERTY_LOCALE = "locale";

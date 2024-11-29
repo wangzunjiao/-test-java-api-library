@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Signature.JSON_PROPERTY_DEVICE_SLOGAN,
   Signature.JSON_PROPERTY_SKIP_SIGNATURE
 })
+//pojo
 
 public class Signature {
   public static final String JSON_PROPERTY_ASK_SIGNATURE_ON_SCREEN = "askSignatureOnScreen";

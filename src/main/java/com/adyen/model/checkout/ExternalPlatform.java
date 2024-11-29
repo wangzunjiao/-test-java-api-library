@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ExternalPlatform.JSON_PROPERTY_NAME,
   ExternalPlatform.JSON_PROPERTY_VERSION
 })
+//pojo
 
 public class ExternalPlatform {
   public static final String JSON_PROPERTY_INTEGRATOR = "integrator";

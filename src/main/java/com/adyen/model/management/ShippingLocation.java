@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ShippingLocation.JSON_PROPERTY_ID,
   ShippingLocation.JSON_PROPERTY_NAME
 })
+//pojo
 
 public class ShippingLocation {
   public static final String JSON_PROPERTY_ADDRESS = "address";

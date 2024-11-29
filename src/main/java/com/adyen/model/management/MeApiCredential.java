@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -47,6 +49,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MeApiCredential.JSON_PROPERTY_ROLES,
   MeApiCredential.JSON_PROPERTY_USERNAME
 })
+//pojo
 
 public class MeApiCredential {
   public static final String JSON_PROPERTY_LINKS = "_links";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CompanyLinks.JSON_PROPERTY_USERS,
   CompanyLinks.JSON_PROPERTY_WEBHOOKS
 })
+//pojo
 
 public class CompanyLinks {
   public static final String JSON_PROPERTY_API_CREDENTIALS = "apiCredentials";

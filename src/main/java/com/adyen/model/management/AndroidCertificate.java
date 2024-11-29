@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AndroidCertificate.JSON_PROPERTY_NOT_BEFORE,
   AndroidCertificate.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class AndroidCertificate {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

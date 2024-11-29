@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferRouteRequest.JSON_PROPERTY_CURRENCY,
   TransferRouteRequest.JSON_PROPERTY_PRIORITIES
 })
+//pojo
 
 public class TransferRouteRequest {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

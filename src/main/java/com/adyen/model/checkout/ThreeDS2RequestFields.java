@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -74,6 +76,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDS2RequestFields.JSON_PROPERTY_WHITE_LIST_STATUS,
   ThreeDS2RequestFields.JSON_PROPERTY_WORK_PHONE
 })
+//pojo
 
 public class ThreeDS2RequestFields {
   public static final String JSON_PROPERTY_ACCT_INFO = "acctInfo";

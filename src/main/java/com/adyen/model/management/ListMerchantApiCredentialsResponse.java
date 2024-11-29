@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ListMerchantApiCredentialsResponse.JSON_PROPERTY_ITEMS_TOTAL,
   ListMerchantApiCredentialsResponse.JSON_PROPERTY_PAGES_TOTAL
 })
+//pojo
 
 public class ListMerchantApiCredentialsResponse {
   public static final String JSON_PROPERTY_LINKS = "_links";

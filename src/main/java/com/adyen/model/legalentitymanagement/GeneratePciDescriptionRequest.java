@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GeneratePciDescriptionRequest.JSON_PROPERTY_ADDITIONAL_SALES_CHANNELS,
   GeneratePciDescriptionRequest.JSON_PROPERTY_LANGUAGE
 })
+//pojo
 
 public class GeneratePciDescriptionRequest {
   /**

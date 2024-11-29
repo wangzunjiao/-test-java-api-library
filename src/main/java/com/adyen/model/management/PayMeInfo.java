@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayMeInfo.JSON_PROPERTY_LOGO,
   PayMeInfo.JSON_PROPERTY_SUPPORT_EMAIL
 })
+//pojo
 
 public class PayMeInfo {
   public static final String JSON_PROPERTY_DISPLAY_NAME = "displayName";

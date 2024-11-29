@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DisablePermitResult.JSON_PROPERTY_PSP_REFERENCE,
   DisablePermitResult.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class DisablePermitResult {
   public static final String JSON_PROPERTY_PSP_REFERENCE = "pspReference";

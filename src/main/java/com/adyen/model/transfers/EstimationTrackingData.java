@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   EstimationTrackingData.JSON_PROPERTY_ESTIMATED_ARRIVAL_TIME,
   EstimationTrackingData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class EstimationTrackingData {
   public static final String JSON_PROPERTY_ESTIMATED_ARRIVAL_TIME = "estimatedArrivalTime";

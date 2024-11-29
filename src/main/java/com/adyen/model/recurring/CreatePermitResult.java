@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreatePermitResult.JSON_PROPERTY_PERMIT_RESULT_LIST,
   CreatePermitResult.JSON_PROPERTY_PSP_REFERENCE
 })
+//pojo
 
 public class CreatePermitResult {
   public static final String JSON_PROPERTY_PERMIT_RESULT_LIST = "permitResultList";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Resource.JSON_PROPERTY_CREATION_DATE,
   Resource.JSON_PROPERTY_ID
 })
+//pojo
 
 public class Resource {
   public static final String JSON_PROPERTY_BALANCE_PLATFORM = "balancePlatform";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutBankAccount.JSON_PROPERTY_OWNER_NAME,
   CheckoutBankAccount.JSON_PROPERTY_TAX_ID
 })
+//pojo
 
 public class CheckoutBankAccount {
   /**

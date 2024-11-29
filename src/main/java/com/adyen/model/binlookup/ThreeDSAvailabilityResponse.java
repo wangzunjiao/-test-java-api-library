@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDSAvailabilityResponse.JSON_PROPERTY_THREE_D_S2_CARD_RANGE_DETAILS,
   ThreeDSAvailabilityResponse.JSON_PROPERTY_THREE_D_S2SUPPORTED
 })
+//pojo
 
 public class ThreeDSAvailabilityResponse {
   public static final String JSON_PROPERTY_BIN_DETAILS = "binDetails";

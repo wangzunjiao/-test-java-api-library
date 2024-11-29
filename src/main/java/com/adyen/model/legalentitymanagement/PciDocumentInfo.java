@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PciDocumentInfo.JSON_PROPERTY_ID,
   PciDocumentInfo.JSON_PROPERTY_VALID_UNTIL
 })
+//pojo
 
 public class PciDocumentInfo {
   public static final String JSON_PROPERTY_CREATED_AT = "createdAt";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalBoardingData.JSON_PROPERTY_STORE_ID,
   TerminalBoardingData.JSON_PROPERTY_UNIQUE_TERMINAL_ID
 })
+//pojo
 
 public class TerminalBoardingData {
   public static final String JSON_PROPERTY_COMPANY_ID = "companyId";

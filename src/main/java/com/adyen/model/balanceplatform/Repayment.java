@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Repayment.JSON_PROPERTY_TERM,
   Repayment.JSON_PROPERTY_THRESHOLD
 })
+//pojo
 
 public class Repayment {
   public static final String JSON_PROPERTY_BASIS_POINTS = "basisPoints";

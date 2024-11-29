@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -61,6 +63,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataAirline.JSON_PROPERTY_AIRLINE_TRAVEL_AGENCY_CODE,
   AdditionalDataAirline.JSON_PROPERTY_AIRLINE_TRAVEL_AGENCY_NAME
 })
+//pojo
 
 public class AdditionalDataAirline {
   public static final String JSON_PROPERTY_AIRLINE_AGENCY_INVOICE_NUMBER = "airline.agency_invoice_number";

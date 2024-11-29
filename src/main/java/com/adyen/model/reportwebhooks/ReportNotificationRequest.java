@@ -12,6 +12,8 @@
 
 package com.adyen.model.reportwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ReportNotificationRequest.JSON_PROPERTY_ENVIRONMENT,
   ReportNotificationRequest.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class ReportNotificationRequest {
   public static final String JSON_PROPERTY_DATA = "data";

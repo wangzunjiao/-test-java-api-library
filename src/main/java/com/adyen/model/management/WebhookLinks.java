@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   WebhookLinks.JSON_PROPERTY_SELF,
   WebhookLinks.JSON_PROPERTY_TEST_WEBHOOK
 })
+//pojo
 
 public class WebhookLinks {
   public static final String JSON_PROPERTY_COMPANY = "company";

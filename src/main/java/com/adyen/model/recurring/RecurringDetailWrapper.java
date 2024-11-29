@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   RecurringDetailWrapper.JSON_PROPERTY_RECURRING_DETAIL
 })
+//pojo
 
 public class RecurringDetailWrapper {
   public static final String JSON_PROPERTY_RECURRING_DETAIL = "RecurringDetail";

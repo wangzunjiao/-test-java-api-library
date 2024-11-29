@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Contact.JSON_PROPERTY_LAST_NAME,
   Contact.JSON_PROPERTY_PHONE_NUMBER
 })
+//pojo
 
 public class Contact {
   public static final String JSON_PROPERTY_EMAIL = "email";

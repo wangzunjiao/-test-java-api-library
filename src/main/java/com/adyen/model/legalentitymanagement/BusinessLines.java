@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   BusinessLines.JSON_PROPERTY_BUSINESS_LINES
 })
+//pojo
 
 public class BusinessLines {
   public static final String JSON_PROPERTY_BUSINESS_LINES = "businessLines";

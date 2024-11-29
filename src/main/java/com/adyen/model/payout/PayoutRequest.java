@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -52,6 +54,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayoutRequest.JSON_PROPERTY_SHOPPER_REFERENCE,
   PayoutRequest.JSON_PROPERTY_TELEPHONE_NUMBER
 })
+//pojo
 
 public class PayoutRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

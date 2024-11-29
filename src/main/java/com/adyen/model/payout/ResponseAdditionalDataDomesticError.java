@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataDomesticError.JSON_PROPERTY_DOMESTIC_REFUSAL_REASON_RAW,
   ResponseAdditionalDataDomesticError.JSON_PROPERTY_DOMESTIC_SHOPPER_ADVICE
 })
+//pojo
 
 public class ResponseAdditionalDataDomesticError {
   public static final String JSON_PROPERTY_DOMESTIC_REFUSAL_REASON_RAW = "domesticRefusalReasonRaw";

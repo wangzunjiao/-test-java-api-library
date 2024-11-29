@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CustomNotification.JSON_PROPERTY_REASON,
   CustomNotification.JSON_PROPERTY_SUCCESS
 })
+//pojo
 
 public class CustomNotification {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

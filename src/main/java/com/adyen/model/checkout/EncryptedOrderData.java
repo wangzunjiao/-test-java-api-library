@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   EncryptedOrderData.JSON_PROPERTY_ORDER_DATA,
   EncryptedOrderData.JSON_PROPERTY_PSP_REFERENCE
 })
+//pojo
 
 public class EncryptedOrderData {
   public static final String JSON_PROPERTY_ORDER_DATA = "orderData";

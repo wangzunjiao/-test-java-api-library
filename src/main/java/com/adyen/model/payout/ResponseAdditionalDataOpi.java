@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   ResponseAdditionalDataOpi.JSON_PROPERTY_OPI_TRANS_TOKEN
 })
+//pojo
 
 public class ResponseAdditionalDataOpi {
   public static final String JSON_PROPERTY_OPI_TRANS_TOKEN = "opi.transToken";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayWithGoogleDetails.JSON_PROPERTY_THREE_D_S2_SDK_VERSION,
   PayWithGoogleDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PayWithGoogleDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

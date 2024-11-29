@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DeliveryAddress.JSON_PROPERTY_STATE_OR_PROVINCE,
   DeliveryAddress.JSON_PROPERTY_STREET
 })
+//pojo
 
 public class DeliveryAddress {
   public static final String JSON_PROPERTY_CITY = "city";

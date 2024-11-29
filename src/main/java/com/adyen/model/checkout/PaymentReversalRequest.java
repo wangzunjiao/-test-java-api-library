@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentReversalRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   PaymentReversalRequest.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class PaymentReversalRequest {
   public static final String JSON_PROPERTY_APPLICATION_INFO = "applicationInfo";

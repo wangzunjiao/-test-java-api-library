@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   GrantOffers.JSON_PROPERTY_GRANT_OFFERS
 })
+//pojo
 
 public class GrantOffers {
   public static final String JSON_PROPERTY_GRANT_OFFERS = "grantOffers";

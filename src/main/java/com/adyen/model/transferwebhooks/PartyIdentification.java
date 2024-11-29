@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PartyIdentification.JSON_PROPERTY_REFERENCE,
   PartyIdentification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PartyIdentification {
   public static final String JSON_PROPERTY_ADDRESS = "address";

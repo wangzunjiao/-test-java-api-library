@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutAwaitAction.JSON_PROPERTY_TYPE,
   CheckoutAwaitAction.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CheckoutAwaitAction {
   public static final String JSON_PROPERTY_PAYMENT_DATA = "paymentData";

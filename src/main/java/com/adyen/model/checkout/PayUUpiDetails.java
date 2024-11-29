@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayUUpiDetails.JSON_PROPERTY_TYPE,
   PayUUpiDetails.JSON_PROPERTY_VIRTUAL_PAYMENT_ADDRESS
 })
+//pojo
 
 public class PayUUpiDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

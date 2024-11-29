@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   NotifyShopperRequest.JSON_PROPERTY_SHOPPER_REFERENCE,
   NotifyShopperRequest.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID
 })
+//pojo
 
 public class NotifyShopperRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

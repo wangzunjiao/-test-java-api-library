@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PayoutSettingsRequest.JSON_PROPERTY_ENABLED_FROM_DATE,
   PayoutSettingsRequest.JSON_PROPERTY_TRANSFER_INSTRUMENT_ID
 })
+//pojo
 
 public class PayoutSettingsRequest {
   public static final String JSON_PROPERTY_ENABLED = "enabled";

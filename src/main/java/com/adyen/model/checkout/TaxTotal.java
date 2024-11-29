@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   TaxTotal.JSON_PROPERTY_AMOUNT
 })
+//pojo
 
 public class TaxTotal {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

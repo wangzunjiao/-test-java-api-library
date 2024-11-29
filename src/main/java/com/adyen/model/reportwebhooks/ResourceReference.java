@@ -12,6 +12,8 @@
 
 package com.adyen.model.reportwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResourceReference.JSON_PROPERTY_ID,
   ResourceReference.JSON_PROPERTY_REFERENCE
 })
+//pojo
 
 public class ResourceReference {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

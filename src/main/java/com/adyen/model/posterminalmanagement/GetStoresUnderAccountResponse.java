@@ -12,6 +12,8 @@
 
 package com.adyen.model.posterminalmanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   GetStoresUnderAccountResponse.JSON_PROPERTY_STORES
 })
+//pojo
 
 public class GetStoresUnderAccountResponse {
   public static final String JSON_PROPERTY_STORES = "stores";

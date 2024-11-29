@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalProduct.JSON_PROPERTY_NAME,
   TerminalProduct.JSON_PROPERTY_PRICE
 })
+//pojo
 
 public class TerminalProduct {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferInstrumentReference.JSON_PROPERTY_REAL_LAST_FOUR,
   TransferInstrumentReference.JSON_PROPERTY_TRUSTED_SOURCE
 })
+//pojo
 
 public class TransferInstrumentReference {
   public static final String JSON_PROPERTY_ACCOUNT_IDENTIFIER = "accountIdentifier";

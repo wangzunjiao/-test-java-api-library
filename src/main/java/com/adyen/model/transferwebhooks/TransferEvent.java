@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -58,6 +60,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransferEvent.JSON_PROPERTY_UPDATE_DATE,
   TransferEvent.JSON_PROPERTY_VALUE_DATE
 })
+//pojo
 
 public class TransferEvent {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

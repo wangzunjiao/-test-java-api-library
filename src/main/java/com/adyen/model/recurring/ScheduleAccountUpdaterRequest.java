@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ScheduleAccountUpdaterRequest.JSON_PROPERTY_SELECTED_RECURRING_DETAIL_REFERENCE,
   ScheduleAccountUpdaterRequest.JSON_PROPERTY_SHOPPER_REFERENCE
 })
+//pojo
 
 public class ScheduleAccountUpdaterRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

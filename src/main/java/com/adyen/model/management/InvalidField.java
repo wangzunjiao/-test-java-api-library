@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InvalidField.JSON_PROPERTY_NAME,
   InvalidField.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class InvalidField {
   public static final String JSON_PROPERTY_MESSAGE = "message";

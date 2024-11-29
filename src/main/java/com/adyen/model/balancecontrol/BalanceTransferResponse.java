@@ -12,6 +12,8 @@
 
 package com.adyen.model.balancecontrol;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BalanceTransferResponse.JSON_PROPERTY_TO_MERCHANT,
   BalanceTransferResponse.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class BalanceTransferResponse {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

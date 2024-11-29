@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BusinessLine.JSON_PROPERTY_WEB_DATA,
   BusinessLine.JSON_PROPERTY_WEB_DATA_EXEMPTION
 })
+//pojo
 
 public class BusinessLine {
   /**

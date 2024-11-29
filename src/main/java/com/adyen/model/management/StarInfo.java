@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StarInfo.JSON_PROPERTY_PROCESSING_TYPE,
   StarInfo.JSON_PROPERTY_TRANSACTION_DESCRIPTION
 })
+//pojo
 
 public class StarInfo {
   /**

@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -52,6 +54,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodsRequest.JSON_PROPERTY_STORE,
   PaymentMethodsRequest.JSON_PROPERTY_STORE_FILTRATION_MODE
 })
+//pojo
 
 public class PaymentMethodsRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

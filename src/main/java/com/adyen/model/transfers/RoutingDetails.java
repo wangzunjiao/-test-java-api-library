@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RoutingDetails.JSON_PROPERTY_PRIORITY,
   RoutingDetails.JSON_PROPERTY_TITLE
 })
+//pojo
 
 public class RoutingDetails {
   public static final String JSON_PROPERTY_DETAIL = "detail";

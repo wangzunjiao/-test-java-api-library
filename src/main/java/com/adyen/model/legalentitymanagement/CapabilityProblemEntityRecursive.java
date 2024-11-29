@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapabilityProblemEntityRecursive.JSON_PROPERTY_ID,
   CapabilityProblemEntityRecursive.JSON_PROPERTY_TYPE
 })
+//pojo
 @JsonTypeName("CapabilityProblemEntity-recursive")
 
 public class CapabilityProblemEntityRecursive {

@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DocumentPage.JSON_PROPERTY_PAGE_NUMBER,
   DocumentPage.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class DocumentPage {
   public static final String JSON_PROPERTY_PAGE_NAME = "pageName";

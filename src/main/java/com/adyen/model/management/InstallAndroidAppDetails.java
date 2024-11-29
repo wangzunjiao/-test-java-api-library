@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InstallAndroidAppDetails.JSON_PROPERTY_APP_ID,
   InstallAndroidAppDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class InstallAndroidAppDetails {
   public static final String JSON_PROPERTY_APP_ID = "appId";

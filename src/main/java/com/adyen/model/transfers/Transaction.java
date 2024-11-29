@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Transaction.JSON_PROPERTY_TRANSFER,
   Transaction.JSON_PROPERTY_VALUE_DATE
 })
+//pojo
 
 public class Transaction {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER = "accountHolder";

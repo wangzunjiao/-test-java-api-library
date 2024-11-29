@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalConnectivity.JSON_PROPERTY_ETHERNET,
   TerminalConnectivity.JSON_PROPERTY_WIFI
 })
+//pojo
 
 public class TerminalConnectivity {
   public static final String JSON_PROPERTY_BLUETOOTH = "bluetooth";

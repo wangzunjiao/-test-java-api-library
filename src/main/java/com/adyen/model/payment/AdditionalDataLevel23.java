@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -49,6 +51,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataLevel23.JSON_PROPERTY_ENHANCED_SCHEME_DATA_SHIP_FROM_POSTAL_CODE,
   AdditionalDataLevel23.JSON_PROPERTY_ENHANCED_SCHEME_DATA_TOTAL_TAX_AMOUNT
 })
+//pojo
 
 public class AdditionalDataLevel23 {
   public static final String JSON_PROPERTY_ENHANCED_SCHEME_DATA_CUSTOMER_REFERENCE = "enhancedSchemeData.customerReference";

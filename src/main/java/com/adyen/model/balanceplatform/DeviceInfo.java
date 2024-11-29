@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DeviceInfo.JSON_PROPERTY_SERIAL_NUMBER,
   DeviceInfo.JSON_PROPERTY_STORAGE_TECHNOLOGY
 })
+//pojo
 
 public class DeviceInfo {
   public static final String JSON_PROPERTY_CARD_CAPTURE_TECHNOLOGY = "cardCaptureTechnology";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DeliveryAddress.JSON_PROPERTY_POSTAL_CODE,
   DeliveryAddress.JSON_PROPERTY_STATE_OR_PROVINCE
 })
+//pojo
 
 public class DeliveryAddress {
   public static final String JSON_PROPERTY_CITY = "city";

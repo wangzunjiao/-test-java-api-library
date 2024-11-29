@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SearchRegisteredDevicesResponse.JSON_PROPERTY_LINK,
   SearchRegisteredDevicesResponse.JSON_PROPERTY_PAGES_TOTAL
 })
+//pojo
 
 public class SearchRegisteredDevicesResponse {
   public static final String JSON_PROPERTY_DATA = "data";

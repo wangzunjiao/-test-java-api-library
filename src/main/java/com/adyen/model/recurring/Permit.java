@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Permit.JSON_PROPERTY_RESULT_KEY,
   Permit.JSON_PROPERTY_VALID_TILL_DATE
 })
+//pojo
 
 public class Permit {
   public static final String JSON_PROPERTY_PARTNER_ID = "partnerId";

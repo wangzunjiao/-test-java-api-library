@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   USInternationalAchAddressRequirement.JSON_PROPERTY_DESCRIPTION,
   USInternationalAchAddressRequirement.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class USInternationalAchAddressRequirement {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";

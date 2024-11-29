@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ModifyResponse.JSON_PROPERTY_PSP_REFERENCE,
   ModifyResponse.JSON_PROPERTY_RESPONSE
 })
+//pojo
 
 public class ModifyResponse {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

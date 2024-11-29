@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RepaymentTerm.JSON_PROPERTY_ESTIMATED_DAYS,
   RepaymentTerm.JSON_PROPERTY_MAXIMUM_DAYS
 })
+//pojo
 
 public class RepaymentTerm {
   public static final String JSON_PROPERTY_ESTIMATED_DAYS = "estimatedDays";

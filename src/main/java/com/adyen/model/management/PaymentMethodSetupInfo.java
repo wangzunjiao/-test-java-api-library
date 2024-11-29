@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -23,6 +25,7 @@ import com.adyen.model.management.ApplePayInfo;
 import com.adyen.model.management.BcmcInfo;
 import com.adyen.model.management.CartesBancairesInfo;
 import com.adyen.model.management.ClearpayInfo;
+import com.adyen.model.management.DinersInfo;
 import com.adyen.model.management.GenericPmWithTdiInfo;
 import com.adyen.model.management.GiroPayInfo;
 import com.adyen.model.management.GooglePayInfo;
@@ -103,6 +106,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodSetupInfo.JSON_PROPERTY_WECHATPAY,
   PaymentMethodSetupInfo.JSON_PROPERTY_WECHATPAY_POS
 })
+//pojo
 
 public class PaymentMethodSetupInfo {
   public static final String JSON_PROPERTY_ACCEL = "accel";
@@ -142,7 +146,7 @@ public class PaymentMethodSetupInfo {
   private List<String> customRoutingFlags = null;
 
   public static final String JSON_PROPERTY_DINERS = "diners";
-  private GenericPmWithTdiInfo diners;
+  private DinersInfo diners;
 
   public static final String JSON_PROPERTY_DISCOVER = "discover";
   private GenericPmWithTdiInfo discover;
@@ -263,6 +267,8 @@ public class PaymentMethodSetupInfo {
    */
   public enum TypeEnum {
     ACCEL("accel"),
+    
+    AFFIRM("affirm"),
     
     AFTERPAYTOUCH("afterpaytouch"),
     
@@ -877,7 +883,7 @@ public class PaymentMethodSetupInfo {
    * @param diners
    * @return the current {@code PaymentMethodSetupInfo} instance, allowing for method chaining
    */
-  public PaymentMethodSetupInfo diners(GenericPmWithTdiInfo diners) {
+  public PaymentMethodSetupInfo diners(DinersInfo diners) {
     this.diners = diners;
     return this;
   }
@@ -889,7 +895,7 @@ public class PaymentMethodSetupInfo {
   @ApiModelProperty(value = "")
   @JsonProperty(JSON_PROPERTY_DINERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public GenericPmWithTdiInfo getDiners() {
+  public DinersInfo getDiners() {
     return diners;
   }
 
@@ -900,7 +906,7 @@ public class PaymentMethodSetupInfo {
    */ 
   @JsonProperty(JSON_PROPERTY_DINERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setDiners(GenericPmWithTdiInfo diners) {
+  public void setDiners(DinersInfo diners) {
     this.diners = diners;
   }
 

@@ -12,6 +12,8 @@
 
 package com.adyen.model.transferwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   HULocalAccountIdentification.JSON_PROPERTY_ACCOUNT_NUMBER,
   HULocalAccountIdentification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class HULocalAccountIdentification {
   public static final String JSON_PROPERTY_ACCOUNT_NUMBER = "accountNumber";

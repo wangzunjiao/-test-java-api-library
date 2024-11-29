@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ListStoredPaymentMethodsResponse.JSON_PROPERTY_SHOPPER_REFERENCE,
   ListStoredPaymentMethodsResponse.JSON_PROPERTY_STORED_PAYMENT_METHODS
 })
+//pojo
 
 public class ListStoredPaymentMethodsResponse {
   public static final String JSON_PROPERTY_MERCHANT_ACCOUNT = "merchantAccount";

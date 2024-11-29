@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PlatformChargebackLogic.JSON_PROPERTY_COST_ALLOCATION_ACCOUNT,
   PlatformChargebackLogic.JSON_PROPERTY_TARGET_ACCOUNT
 })
+//pojo
 
 public class PlatformChargebackLogic {
   /**

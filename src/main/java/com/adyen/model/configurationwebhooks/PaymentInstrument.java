@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -50,6 +52,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentInstrument.JSON_PROPERTY_STATUS_REASON,
   PaymentInstrument.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PaymentInstrument {
   public static final String JSON_PROPERTY_ADDITIONAL_BANK_ACCOUNT_IDENTIFICATIONS = "additionalBankAccountIdentifications";

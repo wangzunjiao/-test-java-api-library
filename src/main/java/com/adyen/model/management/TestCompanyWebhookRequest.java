@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TestCompanyWebhookRequest.JSON_PROPERTY_NOTIFICATION,
   TestCompanyWebhookRequest.JSON_PROPERTY_TYPES
 })
+//pojo
 
 public class TestCompanyWebhookRequest {
   public static final String JSON_PROPERTY_MERCHANT_IDS = "merchantIds";

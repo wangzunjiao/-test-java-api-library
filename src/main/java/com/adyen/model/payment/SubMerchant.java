@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SubMerchant.JSON_PROPERTY_NAME,
   SubMerchant.JSON_PROPERTY_TAX_ID
 })
+//pojo
 
 public class SubMerchant {
   public static final String JSON_PROPERTY_CITY = "city";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AdditionalDataRetry.JSON_PROPERTY_RETRY_ORDER_ATTEMPT_NUMBER,
   AdditionalDataRetry.JSON_PROPERTY_RETRY_SKIP_RETRY
 })
+//pojo
 
 public class AdditionalDataRetry {
   public static final String JSON_PROPERTY_RETRY_CHAIN_ATTEMPT_NUMBER = "retry.chainAttemptNumber";

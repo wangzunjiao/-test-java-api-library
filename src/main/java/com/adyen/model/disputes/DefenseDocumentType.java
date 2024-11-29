@@ -12,6 +12,8 @@
 
 package com.adyen.model.disputes;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   DefenseDocumentType.JSON_PROPERTY_DEFENSE_DOCUMENT_TYPE_CODE,
   DefenseDocumentType.JSON_PROPERTY_REQUIREMENT_LEVEL
 })
+//pojo
 
 public class DefenseDocumentType {
   public static final String JSON_PROPERTY_AVAILABLE = "available";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -43,6 +45,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardBin.JSON_PROPERTY_PAYOUT_ELIGIBLE,
   CardBin.JSON_PROPERTY_SUMMARY
 })
+//pojo
 
 public class CardBin {
   public static final String JSON_PROPERTY_BIN = "bin";

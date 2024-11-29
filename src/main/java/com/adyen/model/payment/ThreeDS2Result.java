@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDS2Result.JSON_PROPERTY_TRANS_STATUS_REASON,
   ThreeDS2Result.JSON_PROPERTY_WHITE_LIST_STATUS
 })
+//pojo
 
 public class ThreeDS2Result {
   public static final String JSON_PROPERTY_AUTHENTICATION_VALUE = "authenticationValue";

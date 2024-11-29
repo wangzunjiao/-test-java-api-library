@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CheckoutSessionThreeDS2RequestData.JSON_PROPERTY_THREE_D_S_REQUESTOR_CHALLENGE_IND,
   CheckoutSessionThreeDS2RequestData.JSON_PROPERTY_WORK_PHONE
 })
+//pojo
 
 public class CheckoutSessionThreeDS2RequestData {
   public static final String JSON_PROPERTY_HOME_PHONE = "homePhone";

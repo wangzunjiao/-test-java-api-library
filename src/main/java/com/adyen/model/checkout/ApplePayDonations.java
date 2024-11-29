@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ApplePayDonations.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID,
   ApplePayDonations.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class ApplePayDonations {
   public static final String JSON_PROPERTY_APPLE_PAY_TOKEN = "applePayToken";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.binlookup;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ThreeDSAvailabilityRequest.JSON_PROPERTY_RECURRING_DETAIL_REFERENCE,
   ThreeDSAvailabilityRequest.JSON_PROPERTY_SHOPPER_REFERENCE
 })
+//pojo
 
 public class ThreeDSAvailabilityRequest {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";

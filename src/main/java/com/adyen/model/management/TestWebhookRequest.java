@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TestWebhookRequest.JSON_PROPERTY_NOTIFICATION,
   TestWebhookRequest.JSON_PROPERTY_TYPES
 })
+//pojo
 
 public class TestWebhookRequest {
   public static final String JSON_PROPERTY_NOTIFICATION = "notification";

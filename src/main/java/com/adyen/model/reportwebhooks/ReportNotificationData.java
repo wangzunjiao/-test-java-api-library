@@ -12,6 +12,8 @@
 
 package com.adyen.model.reportwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ReportNotificationData.JSON_PROPERTY_FILE_NAME,
   ReportNotificationData.JSON_PROPERTY_REPORT_TYPE
 })
+//pojo
 
 public class ReportNotificationData {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER = "accountHolder";

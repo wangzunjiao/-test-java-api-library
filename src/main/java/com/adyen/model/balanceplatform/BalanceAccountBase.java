@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BalanceAccountBase.JSON_PROPERTY_STATUS,
   BalanceAccountBase.JSON_PROPERTY_TIME_ZONE
 })
+//pojo
 
 public class BalanceAccountBase {
   public static final String JSON_PROPERTY_ACCOUNT_HOLDER_ID = "accountHolderId";

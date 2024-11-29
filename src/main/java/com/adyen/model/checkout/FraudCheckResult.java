@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   FraudCheckResult.JSON_PROPERTY_CHECK_ID,
   FraudCheckResult.JSON_PROPERTY_NAME
 })
+//pojo
 
 public class FraudCheckResult {
   public static final String JSON_PROPERTY_ACCOUNT_SCORE = "accountScore";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MerchantRiskIndicator.JSON_PROPERTY_REORDER_ITEMS_IND,
   MerchantRiskIndicator.JSON_PROPERTY_SHIP_INDICATOR
 })
+//pojo
 
 public class MerchantRiskIndicator {
   public static final String JSON_PROPERTY_ADDRESS_MATCH = "addressMatch";

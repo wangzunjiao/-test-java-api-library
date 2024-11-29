@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BillingEntity.JSON_PROPERTY_NAME,
   BillingEntity.JSON_PROPERTY_TAX_ID
 })
+//pojo
 
 public class BillingEntity {
   public static final String JSON_PROPERTY_ADDRESS = "address";

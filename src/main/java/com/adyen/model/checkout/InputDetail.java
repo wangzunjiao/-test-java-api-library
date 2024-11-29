@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -47,6 +49,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InputDetail.JSON_PROPERTY_TYPE,
   InputDetail.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class InputDetail {
   public static final String JSON_PROPERTY_CONFIGURATION = "configuration";

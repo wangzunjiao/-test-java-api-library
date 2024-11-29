@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   CalculateTermsOfServiceStatusResponse.JSON_PROPERTY_TERMS_OF_SERVICE_TYPES
 })
+//pojo
 
 public class CalculateTermsOfServiceStatusResponse {
   /**

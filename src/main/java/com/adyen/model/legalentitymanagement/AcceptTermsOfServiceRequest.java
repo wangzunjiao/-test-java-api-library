@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AcceptTermsOfServiceRequest.JSON_PROPERTY_ACCEPTED_BY,
   AcceptTermsOfServiceRequest.JSON_PROPERTY_IP_ADDRESS
 })
+//pojo
 
 public class AcceptTermsOfServiceRequest {
   public static final String JSON_PROPERTY_ACCEPTED_BY = "acceptedBy";

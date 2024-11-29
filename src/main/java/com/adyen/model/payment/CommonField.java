@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CommonField.JSON_PROPERTY_NAME,
   CommonField.JSON_PROPERTY_VERSION
 })
+//pojo
 
 public class CommonField {
   public static final String JSON_PROPERTY_NAME = "name";

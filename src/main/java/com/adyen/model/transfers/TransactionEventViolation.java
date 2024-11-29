@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionEventViolation.JSON_PROPERTY_TRANSACTION_RULE,
   TransactionEventViolation.JSON_PROPERTY_TRANSACTION_RULE_SOURCE
 })
+//pojo
 
 public class TransactionEventViolation {
   public static final String JSON_PROPERTY_REASON = "reason";

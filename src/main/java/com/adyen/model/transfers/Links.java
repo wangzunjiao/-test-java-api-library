@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Links.JSON_PROPERTY_NEXT,
   Links.JSON_PROPERTY_PREV
 })
+//pojo
 
 public class Links {
   public static final String JSON_PROPERTY_NEXT = "next";

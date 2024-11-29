@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SecureRemoteCommerceCheckoutData.JSON_PROPERTY_SCHEME,
   SecureRemoteCommerceCheckoutData.JSON_PROPERTY_TOKEN_REFERENCE
 })
+//pojo
 
 public class SecureRemoteCommerceCheckoutData {
   public static final String JSON_PROPERTY_CHECKOUT_PAYLOAD = "checkoutPayload";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -78,6 +80,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TerminalSettings.JSON_PROPERTY_TIMEOUTS,
   TerminalSettings.JSON_PROPERTY_WIFI_PROFILES
 })
+//pojo
 
 public class TerminalSettings {
   public static final String JSON_PROPERTY_CARDHOLDER_RECEIPT = "cardholderReceipt";

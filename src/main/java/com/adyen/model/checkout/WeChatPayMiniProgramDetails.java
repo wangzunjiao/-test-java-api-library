@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   WeChatPayMiniProgramDetails.JSON_PROPERTY_OPENID,
   WeChatPayMiniProgramDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class WeChatPayMiniProgramDetails {
   public static final String JSON_PROPERTY_APP_ID = "appId";

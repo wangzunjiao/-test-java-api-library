@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Gratuity.JSON_PROPERTY_PREDEFINED_TIP_ENTRIES,
   Gratuity.JSON_PROPERTY_USE_PREDEFINED_TIP_ENTRIES
 })
+//pojo
 
 public class Gratuity {
   public static final String JSON_PROPERTY_ALLOW_CUSTOM_AMOUNT = "allowCustomAmount";

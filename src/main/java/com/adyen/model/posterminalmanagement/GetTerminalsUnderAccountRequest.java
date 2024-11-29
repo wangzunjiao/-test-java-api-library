@@ -12,6 +12,8 @@
 
 package com.adyen.model.posterminalmanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GetTerminalsUnderAccountRequest.JSON_PROPERTY_MERCHANT_ACCOUNT,
   GetTerminalsUnderAccountRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class GetTerminalsUnderAccountRequest {
   public static final String JSON_PROPERTY_COMPANY_ACCOUNT = "companyAccount";

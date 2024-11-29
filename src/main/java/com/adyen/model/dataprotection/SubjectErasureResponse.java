@@ -12,6 +12,8 @@
 
 package com.adyen.model.dataprotection;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   SubjectErasureResponse.JSON_PROPERTY_RESULT
 })
+//pojo
 
 public class SubjectErasureResponse {
   /**

@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   MinorUnitsMonetaryValue.JSON_PROPERTY_AMOUNT,
   MinorUnitsMonetaryValue.JSON_PROPERTY_CURRENCY_CODE
 })
+//pojo
 
 public class MinorUnitsMonetaryValue {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

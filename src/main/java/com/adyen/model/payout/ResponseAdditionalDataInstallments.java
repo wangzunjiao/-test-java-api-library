@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -44,6 +46,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ResponseAdditionalDataInstallments.JSON_PROPERTY_INSTALLMENT_PAYMENT_DATA_PAYMENT_OPTIONS,
   ResponseAdditionalDataInstallments.JSON_PROPERTY_INSTALLMENTS_VALUE
 })
+//pojo
 
 public class ResponseAdditionalDataInstallments {
   public static final String JSON_PROPERTY_INSTALLMENT_PAYMENT_DATA_INSTALLMENT_TYPE = "installmentPaymentData.installmentType";

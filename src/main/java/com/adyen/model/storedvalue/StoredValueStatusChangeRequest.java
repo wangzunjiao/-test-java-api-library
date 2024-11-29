@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueStatusChangeRequest.JSON_PROPERTY_STATUS,
   StoredValueStatusChangeRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class StoredValueStatusChangeRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

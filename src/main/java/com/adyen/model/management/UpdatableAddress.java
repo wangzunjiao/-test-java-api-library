@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   UpdatableAddress.JSON_PROPERTY_POSTAL_CODE,
   UpdatableAddress.JSON_PROPERTY_STATE_OR_PROVINCE
 })
+//pojo
 
 public class UpdatableAddress {
   public static final String JSON_PROPERTY_CITY = "city";

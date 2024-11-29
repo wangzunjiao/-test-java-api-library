@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -119,6 +121,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CreateCheckoutSessionResponse.JSON_PROPERTY_TRUSTED_SHOPPER,
   CreateCheckoutSessionResponse.JSON_PROPERTY_URL
 })
+//pojo
 
 public class CreateCheckoutSessionResponse {
   public static final String JSON_PROPERTY_ACCOUNT_INFO = "accountInfo";

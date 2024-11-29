@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RiskData.JSON_PROPERTY_FRAUD_OFFSET,
   RiskData.JSON_PROPERTY_PROFILE_REFERENCE
 })
+//pojo
 
 public class RiskData {
   public static final String JSON_PROPERTY_CLIENT_DATA = "clientData";

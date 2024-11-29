@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueLoadResponse.JSON_PROPERTY_RESULT_CODE,
   StoredValueLoadResponse.JSON_PROPERTY_THIRD_PARTY_REFUSAL_REASON
 })
+//pojo
 
 public class StoredValueLoadResponse {
   public static final String JSON_PROPERTY_AUTH_CODE = "authCode";

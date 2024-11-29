@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -52,6 +54,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentCompletionDetails.JSON_PROPERTY_THREEDS2_FINGERPRINT,
   PaymentCompletionDetails.JSON_PROPERTY_VAULT_TOKEN
 })
+//pojo
 
 public class PaymentCompletionDetails {
   public static final String JSON_PROPERTY_M_D = "MD";

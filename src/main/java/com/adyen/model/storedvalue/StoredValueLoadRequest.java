@@ -12,6 +12,8 @@
 
 package com.adyen.model.storedvalue;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -45,6 +47,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StoredValueLoadRequest.JSON_PROPERTY_SHOPPER_REFERENCE,
   StoredValueLoadRequest.JSON_PROPERTY_STORE
 })
+//pojo
 
 public class StoredValueLoadRequest {
   public static final String JSON_PROPERTY_AMOUNT = "amount";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.recurring;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Recurring.JSON_PROPERTY_RECURRING_FREQUENCY,
   Recurring.JSON_PROPERTY_TOKEN_SERVICE
 })
+//pojo
 
 public class Recurring {
   /**

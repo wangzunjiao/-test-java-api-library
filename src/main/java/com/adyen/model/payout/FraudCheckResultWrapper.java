@@ -12,6 +12,8 @@
 
 package com.adyen.model.payout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   FraudCheckResultWrapper.JSON_PROPERTY_FRAUD_CHECK_RESULT
 })
+//pojo
 
 public class FraudCheckResultWrapper {
   public static final String JSON_PROPERTY_FRAUD_CHECK_RESULT = "FraudCheckResult";

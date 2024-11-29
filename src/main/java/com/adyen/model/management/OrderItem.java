@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   OrderItem.JSON_PROPERTY_NAME,
   OrderItem.JSON_PROPERTY_QUANTITY
 })
+//pojo
 
 public class OrderItem {
   public static final String JSON_PROPERTY_ID = "id";

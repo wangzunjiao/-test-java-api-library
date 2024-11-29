@@ -12,6 +12,8 @@
 
 package com.adyen.model.payment;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ModificationResult.JSON_PROPERTY_PSP_REFERENCE,
   ModificationResult.JSON_PROPERTY_RESPONSE
 })
+//pojo
 
 public class ModificationResult {
   public static final String JSON_PROPERTY_ADDITIONAL_DATA = "additionalData";
@@ -50,21 +53,21 @@ public class ModificationResult {
    * Indicates if the modification request has been received for processing.
    */
   public enum ResponseEnum {
-    CAPTURE_RECEIVED_("[capture-received]"),
+    _CAPTURE_RECEIVED_("[capture-received]"),
     
-    CANCEL_RECEIVED_("[cancel-received]"),
+    _CANCEL_RECEIVED_("[cancel-received]"),
     
-    REFUND_RECEIVED_("[refund-received]"),
+    _REFUND_RECEIVED_("[refund-received]"),
     
-    CANCELORREFUND_RECEIVED_("[cancelOrRefund-received]"),
+    _CANCELORREFUND_RECEIVED_("[cancelOrRefund-received]"),
     
-    ADJUSTAUTHORISATION_RECEIVED_("[adjustAuthorisation-received]"),
+    _ADJUSTAUTHORISATION_RECEIVED_("[adjustAuthorisation-received]"),
     
-    DONATION_RECEIVED_("[donation-received]"),
+    _DONATION_RECEIVED_("[donation-received]"),
     
-    TECHNICAL_CANCEL_RECEIVED_("[technical-cancel-received]"),
+    _TECHNICAL_CANCEL_RECEIVED_("[technical-cancel-received]"),
     
-    VOIDPENDINGREFUND_RECEIVED_("[voidPendingRefund-received]"),
+    _VOIDPENDINGREFUND_RECEIVED_("[voidPendingRefund-received]"),
     
     AUTHORISED("Authorised");
 

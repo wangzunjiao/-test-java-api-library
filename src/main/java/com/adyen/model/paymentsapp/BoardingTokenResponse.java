@@ -12,6 +12,8 @@
 
 package com.adyen.model.paymentsapp;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   BoardingTokenResponse.JSON_PROPERTY_BOARDING_TOKEN,
   BoardingTokenResponse.JSON_PROPERTY_INSTALLATION_ID
 })
+//pojo
 
 public class BoardingTokenResponse {
   public static final String JSON_PROPERTY_BOARDING_TOKEN = "boardingToken";

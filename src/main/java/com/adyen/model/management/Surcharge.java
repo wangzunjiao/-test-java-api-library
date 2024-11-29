@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Surcharge.JSON_PROPERTY_ASK_CONFIRMATION,
   Surcharge.JSON_PROPERTY_CONFIGURATIONS
 })
+//pojo
 
 public class Surcharge {
   public static final String JSON_PROPERTY_ASK_CONFIRMATION = "askConfirmation";

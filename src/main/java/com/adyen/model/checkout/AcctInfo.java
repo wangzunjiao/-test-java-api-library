@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -48,6 +50,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AcctInfo.JSON_PROPERTY_TXN_ACTIVITY_DAY,
   AcctInfo.JSON_PROPERTY_TXN_ACTIVITY_YEAR
 })
+//pojo
 
 public class AcctInfo {
   /**

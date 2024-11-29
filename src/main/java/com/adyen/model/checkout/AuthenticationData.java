@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AuthenticationData.JSON_PROPERTY_AUTHENTICATION_ONLY,
   AuthenticationData.JSON_PROPERTY_THREE_D_S_REQUEST_DATA
 })
+//pojo
 
 public class AuthenticationData {
   /**

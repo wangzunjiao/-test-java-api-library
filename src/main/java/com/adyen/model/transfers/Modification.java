@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   Modification.JSON_PROPERTY_STATUS,
   Modification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class Modification {
   public static final String JSON_PROPERTY_DIRECTION = "direction";

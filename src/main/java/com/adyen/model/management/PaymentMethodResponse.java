@@ -12,6 +12,8 @@
 
 package com.adyen.model.management;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -41,6 +43,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodResponse.JSON_PROPERTY_PAGES_TOTAL,
   PaymentMethodResponse.JSON_PROPERTY_TYPES_WITH_ERRORS
 })
+//pojo
 
 public class PaymentMethodResponse {
   public static final String JSON_PROPERTY_LINKS = "_links";
@@ -60,6 +63,8 @@ public class PaymentMethodResponse {
    */
   public enum TypesWithErrorsEnum {
     ACCEL("accel"),
+    
+    AFFIRM("affirm"),
     
     AFTERPAYTOUCH("afterpaytouch"),
     

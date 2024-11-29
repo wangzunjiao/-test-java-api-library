@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   GiropayDetails.JSON_PROPERTY_STORED_PAYMENT_METHOD_ID,
   GiropayDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class GiropayDetails {
   public static final String JSON_PROPERTY_CHECKOUT_ATTEMPT_ID = "checkoutAttemptId";

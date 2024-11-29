@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   ExternalReason.JSON_PROPERTY_DESCRIPTION,
   ExternalReason.JSON_PROPERTY_NAMESPACE
 })
+//pojo
 
 public class ExternalReason {
   public static final String JSON_PROPERTY_CODE = "code";

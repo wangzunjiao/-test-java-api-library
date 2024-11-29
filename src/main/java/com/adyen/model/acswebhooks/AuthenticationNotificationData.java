@@ -12,6 +12,8 @@
 
 package com.adyen.model.acswebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -40,6 +42,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AuthenticationNotificationData.JSON_PROPERTY_PURCHASE,
   AuthenticationNotificationData.JSON_PROPERTY_STATUS
 })
+//pojo
 
 public class AuthenticationNotificationData {
   public static final String JSON_PROPERTY_AUTHENTICATION = "authentication";

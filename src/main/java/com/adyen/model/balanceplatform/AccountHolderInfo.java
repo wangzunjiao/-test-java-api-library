@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -46,6 +48,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   AccountHolderInfo.JSON_PROPERTY_REFERENCE,
   AccountHolderInfo.JSON_PROPERTY_TIME_ZONE
 })
+//pojo
 
 public class AccountHolderInfo {
   public static final String JSON_PROPERTY_BALANCE_PLATFORM = "balancePlatform";

@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   InternalCategoryData.JSON_PROPERTY_MODIFICATION_PSP_REFERENCE,
   InternalCategoryData.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class InternalCategoryData {
   public static final String JSON_PROPERTY_MODIFICATION_MERCHANT_REFERENCE = "modificationMerchantReference";

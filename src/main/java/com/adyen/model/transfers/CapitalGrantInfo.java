@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CapitalGrantInfo.JSON_PROPERTY_GRANT_ACCOUNT_ID,
   CapitalGrantInfo.JSON_PROPERTY_GRANT_OFFER_ID
 })
+//pojo
 
 public class CapitalGrantInfo {
   public static final String JSON_PROPERTY_COUNTERPARTY = "counterparty";

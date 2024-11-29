@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -35,6 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   SweepCounterparty.JSON_PROPERTY_MERCHANT_ACCOUNT,
   SweepCounterparty.JSON_PROPERTY_TRANSFER_INSTRUMENT_ID
 })
+//pojo
 
 public class SweepCounterparty {
   public static final String JSON_PROPERTY_BALANCE_ACCOUNT_ID = "balanceAccountId";

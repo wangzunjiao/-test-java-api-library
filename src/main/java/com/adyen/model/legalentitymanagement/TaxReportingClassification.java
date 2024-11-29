@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +38,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TaxReportingClassification.JSON_PROPERTY_MAIN_SOURCE_OF_INCOME,
   TaxReportingClassification.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class TaxReportingClassification {
   /**

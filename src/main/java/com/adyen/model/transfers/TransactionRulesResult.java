@@ -12,6 +12,8 @@
 
 package com.adyen.model.transfers;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -39,6 +41,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   TransactionRulesResult.JSON_PROPERTY_SCORE,
   TransactionRulesResult.JSON_PROPERTY_TRIGGERED_TRANSACTION_RULES
 })
+//pojo
 
 public class TransactionRulesResult {
   public static final String JSON_PROPERTY_ADVICE = "advice";

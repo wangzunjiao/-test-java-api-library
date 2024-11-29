@@ -12,6 +12,8 @@
 
 package com.adyen.model.configurationwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CardOrderItem.JSON_PROPERTY_PIN,
   CardOrderItem.JSON_PROPERTY_SHIPPING_METHOD
 })
+//pojo
 
 public class CardOrderItem {
   public static final String JSON_PROPERTY_BALANCE_PLATFORM = "balancePlatform";

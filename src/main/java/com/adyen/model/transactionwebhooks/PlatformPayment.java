@@ -12,6 +12,8 @@
 
 package com.adyen.model.transactionwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PlatformPayment.JSON_PROPERTY_PSP_PAYMENT_REFERENCE,
   PlatformPayment.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PlatformPayment {
   public static final String JSON_PROPERTY_MODIFICATION_MERCHANT_REFERENCE = "modificationMerchantReference";

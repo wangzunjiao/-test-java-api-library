@@ -12,6 +12,8 @@
 
 package com.adyen.model.managementwebhooks;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -38,6 +40,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   PaymentMethodCreatedNotificationRequest.JSON_PROPERTY_ENVIRONMENT,
   PaymentMethodCreatedNotificationRequest.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class PaymentMethodCreatedNotificationRequest {
   public static final String JSON_PROPERTY_CREATED_AT = "createdAt";

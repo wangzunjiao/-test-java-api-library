@@ -12,6 +12,8 @@
 
 package com.adyen.model.balanceplatform;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   StringMatch.JSON_PROPERTY_OPERATION,
   StringMatch.JSON_PROPERTY_VALUE
 })
+//pojo
 
 public class StringMatch {
   /**

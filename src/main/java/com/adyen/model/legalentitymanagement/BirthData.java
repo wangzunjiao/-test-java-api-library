@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +35,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @JsonPropertyOrder({
   BirthData.JSON_PROPERTY_DATE_OF_BIRTH
 })
+//pojo
 
 public class BirthData {
   public static final String JSON_PROPERTY_DATE_OF_BIRTH = "dateOfBirth";

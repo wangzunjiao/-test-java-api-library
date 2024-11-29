@@ -12,6 +12,8 @@
 
 package com.adyen.model.checkout;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -42,6 +44,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   CashAppDetails.JSON_PROPERTY_SUBTYPE,
   CashAppDetails.JSON_PROPERTY_TYPE
 })
+//pojo
 
 public class CashAppDetails {
   public static final String JSON_PROPERTY_CASHTAG = "cashtag";

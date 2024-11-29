@@ -12,6 +12,8 @@
 
 package com.adyen.model.legalentitymanagement;
 
+//model
+
 import java.util.Objects;
 import java.util.Arrays;
 import java.util.Map;
@@ -34,6 +36,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
   RemediatingAction.JSON_PROPERTY_CODE,
   RemediatingAction.JSON_PROPERTY_MESSAGE
 })
+//pojo
 
 public class RemediatingAction {
   public static final String JSON_PROPERTY_CODE = "code";
